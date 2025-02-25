@@ -3,11 +3,11 @@ project:
   
 website: 
   page-navigation: true
-  title: "NMFS Openscapes" 
-  site-url: "https://nmfs-openscapes.github.io" 
-  repo-url: https://github.com/nmfs-openscapes/nmfs-openscapes.github.io
+  title: "LJMU Bag of tRicks Worshop Series" 
+  site-url: "https://LJMUtRicks.github.io" 
+  repo-url: https://github.com/LJMUtRicks/bag-of-tRicks
   repo-actions: [edit, source, issue]
-  favicon: images/openscapes_hex.png  
+  favicon: images/Slide1  
   
   page-footer:
     right: "This page is built with ❤️ and [Quarto](https://quarto.org/)."
@@ -16,23 +16,17 @@ website:
   sidebar:
     background: "#D9E3E4"
     logo: "images/logo-transparent-crop.png"
-    favicon: images/openscapes_hex.png
+    favicon: images/Slide3.png
     pinned: true
     align: center
     tools: 
-      - icon: globe
-        href: https://openscapes.org
-        text: "Openscapes.org"
+      - icon: Slide3.png
+        href: https://www.ljmu.ac.uk/about-us/faculties/faculty-of-science/school-of-biological-and-environmental-sciences
+        text: "School of BES, LJMU"
       - icon: github
-        href: https://github.com/nmfs-openscapes
-        text: "NMFS Openscapes"
-      - icon: mastodon
-        href: https://fosstodon.org/@openscapes
-        text: "Openscapes Mastodon"
-      # bluesky icon not yet available (in my installation)
-      # - icon: bluesky
-      #   href: https://bsky.app/profile/openscapes.bsky.social
-      #   text: "Openscapes Bluesky"            
+        href: https://github.com/LJMUtRicks
+        text: "LJMU Bag of tRicks"
+      
 
     style: "docked"
     search: true
