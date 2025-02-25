@@ -5,7 +5,7 @@ website:
   page-navigation: true
   title: "LJMU Bag of tRicks Worshop Series" 
   site-url: "https://LJMUtRicks.github.io" 
-  repo-url: https://github.com/LJMUtRicks/bag-of-tRicks
+  repo-url: https://github.com/LJMUtRicks/bag-of-tricks
   repo-actions: [edit, source, issue]
   favicon: images/Slide1  
   
