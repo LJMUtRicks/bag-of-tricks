@@ -15,7 +15,7 @@ website:
   
   sidebar:
     background: "#D9E3E4"
-    logo: "images/logo-transparent-crop.png"
+    logo: "images/Slide2.png"
     favicon: images/Slide3.png
     pinned: true
     align: center
@@ -34,39 +34,21 @@ website:
     contents:
       - href: index.qmd
         text: Home
-      - href: about-openscapes.qmd
-        text: About Openscapes
-      - href: about-nmfs-openscapes.qmd
-        text: About NMFS Openscapes
-      - section: mentors/index.qmd
-        text: Mentors Community
+      - href: about-bag.qmd
+        text: About Bag of tRicks
+      - href: about-BES.qmd
+        text: About LJMU
+      - section: Sessions/index.qmd
+        text: Community Sessions
         contents: 
-          - href: mentors/activities.qmd
-            text: Current Activities  
-          - href: mentors/activities.html#previous-activities
-            text: Previous activities
-          - href: mentors/mentor-calls.qmd
-            text: Mentor Calls Skills            
-      - href: champions.qmd
-        text: Champions Program      
-      - section: cohorts/index.qmd
-        text: Champions Cohorts
-        contents: 
-          - cohorts/NMFS-fall2024.qmd  
-          - cohorts/NMFS-fall2022.md 
-          - cohorts/SEFSC-sum2022.md 
-          - cohorts/AFSC-win2021.md 
-          - cohorts/FDD-fall2021.md
-          - cohorts/NMFS-fall2021.md
-          - cohorts/NEFSC-spr2020.md            
-      - href: data-academy.qmd
-        text: Data Academy
-      - href: media.qmd
-        text: Presentations and Media
-      - href: blog.qmd
-        text: Blog
+          - href: Sessions/Overview.qmd
+            text: Current Overview  
+          - href: Sessions/One.qmd
+            text: First session
+          - href: Sessions/Two.qmd
+            text: Second session          
       - contact.qmd
-      - resources.qmd
+    #  - resources.qmd
 
 format:
   html:

@@ -1,0 +1,26 @@
+---
+title: "First meeting"
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+### Intro 
+
+My vision, your expectations - what is to be gained here?
+
+
+### Resources
+
+#### R script
+
+figure this out: for download
+
+
+#### Datafile
+
+figure this out: for download
+
+#### Session led by
+
+tbd

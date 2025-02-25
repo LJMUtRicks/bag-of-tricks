@@ -1,24 +1,26 @@
 ---
-title: "NMFS Openscapes"
-subtitle: "Implementing the NOAA Fisheries Data Strategy for reproducible and open science"
+title: "LJMU Bag of tRicks"
+subtitle: "Sharing R tipps, gaining confidence"
 page-layout: full
 toc: false
 ---
 
-<img src="images/fall2022openscapes.png" alt="hands together" style="float:right;width:30%;"/>
+<img src="images/Slide2.png" alt="Smiling bag" style="float:right;width:30%;"/>
 
-NMFS Openscapes is a multi-year collaboration between NOAA Fisheries and [Openscapes](https://www.openscapes.org/) to promote a data-driven culture through the adoption of open science tools and strategies. Openscapes provides team-based training in reproducible scientific workflows, data management, coding, and optimal team collaboration and project management. We have had 10 Openscapes Champions cohorts in 2020-2024 (500+ staff! \[40 staff per cohort\]) involving all six science centers plus two regional offices, and support local data science mentors mentors at each center and office. 
+text
 
-## NMFS Openscapes 3-year Framework and FY24 plan
+## Title
 
-As part of the NOAA Fisheries Data Modernization Strategy, we work with all six NMFS science centers, five regional offices, and the Office of Science and Technology. We have three synergistic objectives:
+More text
 
-1.  **Develop a mentor community**. We will develop a community of mentors across NMFS centers/offices. With Openscapes facilitation these mentors will learn and work together to strengthen Open Science skills (e.g. code and data-sharing and project management) at their center/office, co-create reusable resources for NMFS-specific scientific products, and collaborate with their colleagues via local activities and trainings.
-2.  **Empower scientific teams**. We will support center/office researchers to become high-functioning teams as they transition to Open Science and reproducible scientific workflows through the Openscapes' Champions and Pathways to Open Science programs and other Community Skill Building Workshops. Cohorts can include teams from the same or across centers/offices, or be topic specific (like stock assessment reports) to strengthen relationships and shared practices.
-3.  **Amplify Open Science leaders**. We will amplify NMFS Open Science leaders and leverage synergistic efforts within NMFS and NOAA. We will focus on opportunities and recognition for staff who support their colleagues, which is critical to upskilling the NMFS workforce, deepening leadership capacity within NOAA, and connecting to the global Open Science movement.
+1.  **Develop a community**. R user Group
 
-## What is the impact of this?
+2.  **Build confidence**. Present your skills, and share your practice.
 
-What does shifting to open science look like across a federal agency like NOAA, and what are the impacts to the efficiency and quality of their scientific products as teams work to reduce silo-ing and duplication of effort? NOAA Fisheries colleagues shared their experiences via a conference presentation on the Year of Open Science:
+3.  **Learn new skills**. Learn about R packages that are probably not used in your discipline - who knows what they might be useful for!
 
-[**A Year of Open Science Community Building at NOAA Fisheries**](https://www.youtube.com/watch?v=n1VaV8f6qQE&list=PLChfyH8TVDGnB_zDCm8d9oonMomfk8v9X&index=14). Eli Holmes (NOAA Fisheries Open Science), Evan Howell (Director of the Office of Science and Technology), Megsie Siple (Alaska Fisheries Science Center), Amanda Bradford (Pacific Islands Fisheries Science Center), Brian Fadely (Alaska Fisheries Science Center Marine Mammal Stock Assessments), Vivian Matter (Branch Chief of Southeast Fisheries Science Center), Kathryn Doering (Office of Science and Technology), Christine Stawitz (Office of Science and Technology), Carissa Geravsi (Gulf of Mexico Integrated Ecosystem Assessment), Lynn Dewitt (California Current Ecosystem Assessment Team). Year of Open Science Culminating Conference, March 21, 2024. 
+## Why this page?
+
+Because we need a space to host and share. And it's been made in R Studio, so has relevance!
+
+
