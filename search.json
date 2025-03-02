@@ -1,0 +1,196 @@
+[
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "LJMU Bag of tRicks\ncurrently: Susi Zajitschek\nLJMU.bagoftricks @ gmail.com\ns.r.zajitschek @ ljmu.ac.uk\nPGR community\ntbd",
+    "crumbs": [
+      "Contact"
+    ]
+  },
+  {
+    "objectID": "about-openscapes.html",
+    "href": "about-openscapes.html",
+    "title": "Openscapes",
+    "section": "",
+    "text": "Openscapes is an open source approach and a movement. It is a way to work together that shifts culture by helping people find each other and collaboratively evolve their work with modern and kind open data science workflows. Openscapes launched in 2018 through funding from Mozilla, via an open science fellowship awarded to Julie Lowndes. Openscapes grew with funding from NASA Earthdata, via decades-long community building leadership by Erin Robinson. In addition to our flagship Champions program that helps science teams shift workflows to open science, we lead multi-year projects with NASA and NOAA. Our NASA work supports scientific researchers using data from NASA Distributed Active Archive Centers (DAACs) as they migrate workflows to the cloud; our NOAA work is part of the Biden-Harris Administration’s Inflation Reduction Act funds to support NOAA Fisheries’ data, infrastructure, and workforce modernization. We were recently recognized by The White House for our movement building in open science."
+  },
+  {
+    "objectID": "about-openscapes.html#openscapes-approach",
+    "href": "about-openscapes.html#openscapes-approach",
+    "title": "Openscapes",
+    "section": "Openscapes approach",
+    "text": "Openscapes approach\nOpenscapes champions open, inclusive practices in environmental and Earth science to help uncover data-intensive solutions faster. We do this through our flagship Champions mentorship program, as well as through community organizing, training, and coaching, leveraging existing resources from open communities along with our own.\nOur flywheel shows our approach to engaging, empowering, and amplifying research communities in open data science — how we describe kinder, better science in less time.\n\n\n\nFigure 1 from Robinson & Lowndes 2022. The Openscapes Flywheel builds momentum as a culture change engine as We engage a Future Us mindset through welcoming and creating space and place, we Empower a learning culture by investing in learning and trust, and working openly, and we amplify open leaders by leveraging common open data science workflows, skills and tools and inspire broader scientific culture change. And the Flywheel turns again."
+  },
+  {
+    "objectID": "about-openscapes.html#our-work",
+    "href": "about-openscapes.html#our-work",
+    "title": "Openscapes",
+    "section": "Our work",
+    "text": "Our work\nAlong with NOAA Fisheries, we are proud to work with many teams leading and supporting research, including NASA, California EPA Water Boards, Fred Hutch, the Pathways to Open Science Program. Learn more about these initiatives on our website: openscapes.org/initiatives.\nA few recent talks highlighting NOAA Fisheries with these other collaborators, see Cross-government Openscapes presentations."
+  },
+  {
+    "objectID": "about-openscapes.html#learn-more",
+    "href": "about-openscapes.html#learn-more",
+    "title": "Openscapes",
+    "section": "Learn more",
+    "text": "Learn more\nLowndes et al 2024. Shifting institutional culture to develop climate solutions with Open Science. Ecology & Evolution\nFredston & Lowndes 2024. Welcoming More Participation in Open Data Science for the Oceans, Annual Review of Marine Science.\nRobinson & Lowndes 2022. The Openscapes Flywheel: A framework for managers to facilitate and scale inclusive Open science practices. Preprint\nLowndes. 2019. Open software mean kinder science. Scientific American.\nLowndes et al. 2019. Supercharge your research: a ten-week plan for open data science Nature Career Column. 31 October 2019\nLowndes et al. 2017. Our path to better science in less time using open data science tools. Nature Ecology and Evolution 1, 0160."
+  },
+  {
+    "objectID": "about-openscapes.html#learn-more-1",
+    "href": "about-openscapes.html#learn-more-1",
+    "title": "Openscapes",
+    "section": "Learn more",
+    "text": "Learn more\n\nOur story\nOur approach\nMore about our Champions Program\nMedia and publications on Openscapes"
+  },
+  {
+    "objectID": "Sessions/Two.html",
+    "href": "Sessions/Two.html",
+    "title": "First meeting",
+    "section": "",
+    "text": "Intro\nMy vision, your expectations - what is to be gained here?\n\n\nResources\n\nR script\nfigure this out: for download\n\n\nDatafile\nfigure this out: for download\n\n\nSession led by\ntbd",
+    "crumbs": [
+      "Sessions/index.qmd",
+      "Second session"
+    ]
+  },
+  {
+    "objectID": "Sessions/Overview.html",
+    "href": "Sessions/Overview.html",
+    "title": "Current Sessions",
+    "section": "",
+    "text": "2025 R user Community @LJMU\n\nIn person meetings (Wednesdays, mid-Month):\n\nMarch: visioning and Intro. What is rmd?\nApril: tbpd\nMay: tbd\nSummer break\n\n\n\n\nFirst session\nlink",
+    "crumbs": [
+      "Sessions/index.qmd",
+      "Current Overview"
+    ]
+  },
+  {
+    "objectID": "CODE_OF_CONDUCT.html",
+    "href": "CODE_OF_CONDUCT.html",
+    "title": "Contributor Covenant Code of Conduct",
+    "section": "",
+    "text": "In the interest of fostering an open and welcoming environment, we as contributors and maintainers pledge to making participation in our project and our community a harassment-free experience for everyone, regardless of age, body size, disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation.\n\n\n\nExamples of behavior that contributes to creating a positive environment include:\n\nUsing welcoming and inclusive language\nBeing respectful of differing viewpoints and experiences\nGracefully accepting constructive criticism\nFocusing on what is best for the community\nShowing empathy towards other community members\n\nExamples of unacceptable behavior by participants include:\n\nThe use of sexualized language or imagery and unwelcome sexual attention or advances\nTrolling, insulting/derogatory comments, and personal or political attacks\nPublic or private harassment\nPublishing others’ private information, such as a physical or electronic address, without explicit permission\nOther conduct which could reasonably be considered inappropriate in a professional setting\n\n\n\n\nProject maintainers are responsible for clarifying the standards of acceptable behavior and are expected to take appropriate and fair corrective action in response to any instances of unacceptable behavior.\nProject maintainers have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned to this Code of Conduct, or to ban temporarily or permanently any contributor for other behaviors that they deem inappropriate, threatening, offensive, or harmful.\n\n\n\nThis Code of Conduct applies both within project spaces and in public spaces when an individual is representing the project or its community. Examples of representing a project or community include using an official project e-mail address, posting via an official social media account, or acting as an appointed representative at an online or offline event. Representation of a project may be further defined and clarified by project maintainers.\n\n\n\nInstances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting the project team at fisheries.toolbox@noaa.gov. All complaints will be reviewed and investigated and will result in a response that is deemed necessary and appropriate to the circumstances. The project team is obligated to maintain confidentiality with regard to the reporter of an incident. Further details of specific enforcement policies may be posted separately.\nProject maintainers who do not follow or enforce the Code of Conduct in good faith may face temporary or permanent repercussions as determined by other members of the project’s leadership.\n\n\n\nThis Code of Conduct is adapted from the Contributor Covenant, version 1.4, available at https://www.contributor-covenant.org/version/1/4/code-of-conduct.html\nFor answers to common questions about this code of conduct, see https://www.contributor-covenant.org/faq"
+  },
+  {
+    "objectID": "CODE_OF_CONDUCT.html#our-pledge",
+    "href": "CODE_OF_CONDUCT.html#our-pledge",
+    "title": "Contributor Covenant Code of Conduct",
+    "section": "",
+    "text": "In the interest of fostering an open and welcoming environment, we as contributors and maintainers pledge to making participation in our project and our community a harassment-free experience for everyone, regardless of age, body size, disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation."
+  },
+  {
+    "objectID": "CODE_OF_CONDUCT.html#our-standards",
+    "href": "CODE_OF_CONDUCT.html#our-standards",
+    "title": "Contributor Covenant Code of Conduct",
+    "section": "",
+    "text": "Examples of behavior that contributes to creating a positive environment include:\n\nUsing welcoming and inclusive language\nBeing respectful of differing viewpoints and experiences\nGracefully accepting constructive criticism\nFocusing on what is best for the community\nShowing empathy towards other community members\n\nExamples of unacceptable behavior by participants include:\n\nThe use of sexualized language or imagery and unwelcome sexual attention or advances\nTrolling, insulting/derogatory comments, and personal or political attacks\nPublic or private harassment\nPublishing others’ private information, such as a physical or electronic address, without explicit permission\nOther conduct which could reasonably be considered inappropriate in a professional setting"
+  },
+  {
+    "objectID": "CODE_OF_CONDUCT.html#our-responsibilities",
+    "href": "CODE_OF_CONDUCT.html#our-responsibilities",
+    "title": "Contributor Covenant Code of Conduct",
+    "section": "",
+    "text": "Project maintainers are responsible for clarifying the standards of acceptable behavior and are expected to take appropriate and fair corrective action in response to any instances of unacceptable behavior.\nProject maintainers have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned to this Code of Conduct, or to ban temporarily or permanently any contributor for other behaviors that they deem inappropriate, threatening, offensive, or harmful."
+  },
+  {
+    "objectID": "CODE_OF_CONDUCT.html#scope",
+    "href": "CODE_OF_CONDUCT.html#scope",
+    "title": "Contributor Covenant Code of Conduct",
+    "section": "",
+    "text": "This Code of Conduct applies both within project spaces and in public spaces when an individual is representing the project or its community. Examples of representing a project or community include using an official project e-mail address, posting via an official social media account, or acting as an appointed representative at an online or offline event. Representation of a project may be further defined and clarified by project maintainers."
+  },
+  {
+    "objectID": "CODE_OF_CONDUCT.html#enforcement",
+    "href": "CODE_OF_CONDUCT.html#enforcement",
+    "title": "Contributor Covenant Code of Conduct",
+    "section": "",
+    "text": "Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting the project team at fisheries.toolbox@noaa.gov. All complaints will be reviewed and investigated and will result in a response that is deemed necessary and appropriate to the circumstances. The project team is obligated to maintain confidentiality with regard to the reporter of an incident. Further details of specific enforcement policies may be posted separately.\nProject maintainers who do not follow or enforce the Code of Conduct in good faith may face temporary or permanent repercussions as determined by other members of the project’s leadership."
+  },
+  {
+    "objectID": "CODE_OF_CONDUCT.html#attribution",
+    "href": "CODE_OF_CONDUCT.html#attribution",
+    "title": "Contributor Covenant Code of Conduct",
+    "section": "",
+    "text": "This Code of Conduct is adapted from the Contributor Covenant, version 1.4, available at https://www.contributor-covenant.org/version/1/4/code-of-conduct.html\nFor answers to common questions about this code of conduct, see https://www.contributor-covenant.org/faq"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "LJMU Bag of tRicks",
+    "section": "",
+    "text": "text",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#title",
+    "href": "index.html#title",
+    "title": "LJMU Bag of tRicks",
+    "section": "Title",
+    "text": "Title\nMore text\n\nDevelop a community. R user Group\nBuild confidence. Present your skills, and share your practice.\nLearn new skills. Learn about R packages that are probably not used in your discipline - who knows what they might be useful for!",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#why-this-page",
+    "href": "index.html#why-this-page",
+    "title": "LJMU Bag of tRicks",
+    "section": "Why this page?",
+    "text": "Why this page?\nBecause we need a space to host and share. And it’s been made in R Studio, so has relevance!",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "about-bag.html",
+    "href": "about-bag.html",
+    "title": "About LJMU Bag of t R icks",
+    "section": "",
+    "text": "This has just disappeared",
+    "crumbs": [
+      "About Bag of tRicks"
+    ]
+  },
+  {
+    "objectID": "Sessions/One.html",
+    "href": "Sessions/One.html",
+    "title": "First meeting",
+    "section": "",
+    "text": "Intro\nMy vision, your expectations - what is to be gained here?\n\n\nResources\n\nDownloadadble R script\nfigure this out\n\n\nDownloadadble datafile\nfigure this out",
+    "crumbs": [
+      "Sessions/index.qmd",
+      "First session"
+    ]
+  },
+  {
+    "objectID": "resources.html",
+    "href": "resources.html",
+    "title": "Resources",
+    "section": "",
+    "text": "NMFS Open Science (public)\nNMFS Open Science (NOAA internal)\n openscapes.cloud - A central location for Openscapes JupyterHub access, policies, and fledging information."
+  },
+  {
+    "objectID": "about-BES.html",
+    "href": "about-BES.html",
+    "title": "School of Biological & Envrionmental Sciences",
+    "section": "",
+    "text": "Department within Liverpool John Moores University BES",
+    "crumbs": [
+      "About LJMU"
+    ]
+  },
+  {
+    "objectID": "about-BES.html#to-add-more",
+    "href": "about-BES.html#to-add-more",
+    "title": "School of Biological & Envrionmental Sciences",
+    "section": "To add more",
+    "text": "To add more\nto be added at a later date",
+    "crumbs": [
+      "About LJMU"
+    ]
+  }
+]
