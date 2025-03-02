@@ -25,7 +25,7 @@ jobs:
         id: netlify-deploy
         uses: nwtgck/actions-netlify@v3
         env:
-          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETHLIFY_AUTH_TOKEN_BAG}}
           NETLIFY_SITE_ID: 6df08d3e-38ea-4829-aef8-9482d85bf382
         with:
           publish-dir: './_site'
