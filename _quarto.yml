@@ -38,7 +38,7 @@ website:
         text: About Bag of tRicks
       - href: about-BES.qmd
         text: About LJMU
-      - section: Sessions/index.qmd
+      - section: Sessions
         text: Community Sessions
         contents: 
           - href: Sessions/Overview.qmd
