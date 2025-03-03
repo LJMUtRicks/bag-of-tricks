@@ -181,21 +181,30 @@
     "href": "resources.html",
     "title": "Resources",
     "section": "",
-    "text": "[intro2r] (https://intro2r.com/)\n[r-tutor] (https://www.r-tutor.com/r-introduction)\n[R studio] (https://education.rstudio.com/learn/beginner/)"
+    "text": "[intro2r] (https://intro2r.com/)\n[r-tutor] (https://www.r-tutor.com/r-introduction)\n[R studio] (https://education.rstudio.com/learn/beginner/)",
+    "crumbs": [
+      "Resources"
+    ]
   },
   {
     "objectID": "resources.html#r-resources-getting-started",
     "href": "resources.html#r-resources-getting-started",
     "title": "Resources",
     "section": "",
-    "text": "[intro2r] (https://intro2r.com/)\n[r-tutor] (https://www.r-tutor.com/r-introduction)\n[R studio] (https://education.rstudio.com/learn/beginner/)"
+    "text": "[intro2r] (https://intro2r.com/)\n[r-tutor] (https://www.r-tutor.com/r-introduction)\n[R studio] (https://education.rstudio.com/learn/beginner/)",
+    "crumbs": [
+      "Resources"
+    ]
   },
   {
     "objectID": "resources.html#open-research-info",
     "href": "resources.html#open-research-info",
     "title": "Resources",
     "section": "Open research & info",
-    "text": "Open research & info\nNMFS Open Science (public)\nNMFS Open Science (NOAA internal)\n openscapes.cloud - A central location for Openscapes JupyterHub access, policies, and fledging information."
+    "text": "Open research & info\nNMFS Open Science (public)\nNMFS Open Science (NOAA internal)\n openscapes.cloud - A central location for Openscapes JupyterHub access, policies, and fledging information.",
+    "crumbs": [
+      "Resources"
+    ]
   },
   {
     "objectID": "about-BES.html",
