@@ -197,11 +197,11 @@
     ]
   },
   {
-    "objectID": "resources.html#open-research-info",
-    "href": "resources.html#open-research-info",
+    "objectID": "resources.html#open-research",
+    "href": "resources.html#open-research",
     "title": "Resources",
-    "section": "Open research & info",
-    "text": "Open research & info\nNMFS Open Science (public)\nNMFS Open Science (NOAA internal)\n openscapes.cloud - A central location for Openscapes JupyterHub access, policies, and fledging information.",
+    "section": "Open research",
+    "text": "Open research\n[Openscapes: How to make a website with Quarto] (https://openscapes.github.io/quarto-website-tutorial/)",
     "crumbs": [
       "Resources"
     ]
