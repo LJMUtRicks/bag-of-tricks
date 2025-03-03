@@ -181,7 +181,7 @@
     "href": "resources.html",
     "title": "Resources",
     "section": "",
-    "text": "[intro2r] (https://intro2r.com/)\n[r-tutor] (https://www.r-tutor.com/r-introduction)\n[R studio] (https://education.rstudio.com/learn/beginner/)",
+    "text": "intro2r\nr-tutor\nR studio",
     "crumbs": [
       "Resources"
     ]
@@ -191,7 +191,7 @@
     "href": "resources.html#r-resources-getting-started",
     "title": "Resources",
     "section": "",
-    "text": "[intro2r] (https://intro2r.com/)\n[r-tutor] (https://www.r-tutor.com/r-introduction)\n[R studio] (https://education.rstudio.com/learn/beginner/)",
+    "text": "intro2r\nr-tutor\nR studio",
     "crumbs": [
       "Resources"
     ]
@@ -201,7 +201,7 @@
     "href": "resources.html#open-research",
     "title": "Resources",
     "section": "Open research",
-    "text": "Open research\n[Openscapes: How to make a website with Quarto] (https://openscapes.github.io/quarto-website-tutorial/)",
+    "text": "Open research\nOpenscapes: How to make a website with Quarto",
     "crumbs": [
       "Resources"
     ]
