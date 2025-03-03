@@ -48,7 +48,7 @@ website:
           - href: Sessions/Two.qmd
             text: Second session          
       - contact.qmd
-    #  - resources.qmd
+      - resources.qmd
 
 format:
   html:
