@@ -5,15 +5,15 @@ format: html
        
 ## R resources: getting started 
 
-[intro2r] (https://intro2r.com/)
+[intro2r](https://intro2r.com/)
     
-[r-tutor] (https://www.r-tutor.com/r-introduction)
+[r-tutor](https://www.r-tutor.com/r-introduction)
 
-[R studio] (https://education.rstudio.com/learn/beginner/)
+[R studio](https://education.rstudio.com/learn/beginner/)
        
 
 ## Open research 
 
-[Openscapes: How to make a website with Quarto] (https://openscapes.github.io/quarto-website-tutorial/)
+[Openscapes: How to make a website with Quarto](https://openscapes.github.io/quarto-website-tutorial/)
 
 
