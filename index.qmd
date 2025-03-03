@@ -8,17 +8,21 @@ toc: false
 <img src="images/Slide2.png"  style="float:right;width:30%;"/>
 ![Bag](images/Slide2.png)
 
-text
 
-## Title
 
-More text
+## 1.  **Develop a community**
 
-1.  **Develop a community**. R user Group
+Who's using R at LJMU? Who is really good at ... x ... Our R user Group hopefully helps curate a network!
 
-2.  **Build confidence**. Present your skills, and share your practice.
+and gain experience
 
-3.  **Learn new skills**. Learn about R packages that are probably not used in your discipline - who knows what they might be useful for!
+## 2.  **Build confidence**
+
+Present your skills, and share your practice.
+
+## 3.  **Learn new skills**
+
+Learn about R packages that are probably not used in your discipline - who knows what they might be useful for!
 
 ## Why this page?
 
