@@ -5,8 +5,8 @@ page-layout: full
 toc: false
 ---
 
-<img src="images/Slide2.png"  style="float:right;width:30%;"/>
-![Bag](images/Slide2.png)
+<img src="images/Slide2.PNG"  style="float:right;width:30%;"/>
+![Bag](images/Slide2.PNG)
 
 
 
