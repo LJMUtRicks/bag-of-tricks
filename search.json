@@ -181,7 +181,21 @@
     "href": "resources.html",
     "title": "Resources",
     "section": "",
-    "text": "NMFS Open Science (public)\nNMFS Open Science (NOAA internal)\n openscapes.cloud - A central location for Openscapes JupyterHub access, policies, and fledging information."
+    "text": "[intro2r] (https://intro2r.com/)\n[r-tutor] (https://www.r-tutor.com/r-introduction)\n[R studio] (https://education.rstudio.com/learn/beginner/)"
+  },
+  {
+    "objectID": "resources.html#r-resources-getting-started",
+    "href": "resources.html#r-resources-getting-started",
+    "title": "Resources",
+    "section": "",
+    "text": "[intro2r] (https://intro2r.com/)\n[r-tutor] (https://www.r-tutor.com/r-introduction)\n[R studio] (https://education.rstudio.com/learn/beginner/)"
+  },
+  {
+    "objectID": "resources.html#open-research-info",
+    "href": "resources.html#open-research-info",
+    "title": "Resources",
+    "section": "Open research & info",
+    "text": "Open research & info\nNMFS Open Science (public)\nNMFS Open Science (NOAA internal)\n openscapes.cloud - A central location for Openscapes JupyterHub access, policies, and fledging information."
   },
   {
     "objectID": "about-BES.html",
