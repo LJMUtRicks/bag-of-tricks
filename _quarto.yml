@@ -34,10 +34,6 @@ website:
     contents:
       - href: index.qmd
         text: Home
-      - href: about-bag.qmd
-        text: About Bag of tRicks
-      - href: about-BES.qmd
-        text: About LJMU
       - section: Sessions
         text: Community Sessions
         contents: 
@@ -47,6 +43,11 @@ website:
             text: First session
           - href: Sessions/Two.qmd
             text: Second session          
+      - href: about-bag.qmd
+        text: About Bag of tRicks
+      - href: about-BES.qmd
+        text: About LJMU
+     
       - contact.qmd
       - resources.qmd
 
