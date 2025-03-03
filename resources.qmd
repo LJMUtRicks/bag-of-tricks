@@ -2,6 +2,17 @@
 title: "Resources"
 format: html
 ---
+       
+## R resources: getting started 
+
+[intro2r] (https://intro2r.com/)
+    
+[r-tutor] (https://www.r-tutor.com/r-introduction)
+
+[R studio] (https://education.rstudio.com/learn/beginner/)
+       
+
+## Open research & info
 
 
 [NMFS Open Science](https://nmfs-opensci.github.io/) (public)
