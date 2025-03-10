@@ -116,41 +116,11 @@
     "text": "This Code of Conduct is adapted from the Contributor Covenant, version 1.4, available at https://www.contributor-covenant.org/version/1/4/code-of-conduct.html\nFor answers to common questions about this code of conduct, see https://www.contributor-covenant.org/faq"
   },
   {
-    "objectID": "index.html#develop-a-community",
-    "href": "index.html#develop-a-community",
+    "objectID": "index.html",
+    "href": "index.html",
     "title": "LJMU Bag of tRicks",
-    "section": "1. Develop a community",
-    "text": "1. Develop a community\nWho’s using R at LJMU? Who is really good at … x … Our R user Group hopefully helps curate a network!\nand gain experience",
-    "crumbs": [
-      "Home"
-    ]
-  },
-  {
-    "objectID": "index.html#build-confidence",
-    "href": "index.html#build-confidence",
-    "title": "LJMU Bag of tRicks",
-    "section": "2. Build confidence",
-    "text": "2. Build confidence\nPresent your skills, and share your practice.",
-    "crumbs": [
-      "Home"
-    ]
-  },
-  {
-    "objectID": "index.html#learn-new-skills",
-    "href": "index.html#learn-new-skills",
-    "title": "LJMU Bag of tRicks",
-    "section": "3. Learn new skills",
-    "text": "3. Learn new skills\nLearn about R packages that are probably not used in your discipline - who knows what they might be useful for!",
-    "crumbs": [
-      "Home"
-    ]
-  },
-  {
-    "objectID": "index.html#why-this-page",
-    "href": "index.html#why-this-page",
-    "title": "LJMU Bag of tRicks",
-    "section": "Why this page?",
-    "text": "Why this page?\nBecause we need a space to host and share. And it’s been made in R Studio, so has relevance!",
+    "section": "",
+    "text": "Sharing R tipps, gaining confidence\n\n1. Develop a community\nWho’s using R at LJMU? Who is really good at … x … Our R user Group hopefully helps curate a network!\nand gain experience\n\n\n2. Build confidence\nPresent your skills, and share your practice.\n\n\n3. Learn new skills\nLearn about R packages that are probably not used in your discipline - who knows what they might be useful for!\n\n\nWhy this page?\nBecause we need a space to host and share. And it’s been made in R Studio, so has relevance!",
     "crumbs": [
       "Home"
     ]
