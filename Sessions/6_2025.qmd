@@ -5,17 +5,40 @@ editor:
     wrap: 72
 ---
 
-### Intro 
+### Open Research Workshop Series
 
-Open Research Series:
+We're excited to invite you to a short series of in-person practical workshops at Liverpool John Moores University (LJMU) focused on improving reproducibility, research collaboration, and data management. These sessions are open to all disciplines, including Science, Engineering and beyond, and are designed to be hands-on, accessible, and directly relevant to your work.
+
+***Workshop Schedule***
+   
+Monday 23rd June | 2:00–5:00 PM (with coffee & cake from 2:00 PM) – Tom Reilly building, IT room 146a & b     
+Aakanksha Chauhan – Reproducible Data Science in Practice: A Hands-On Git Workflow Workshop
+Learn how to use Git effectively in your day-to-day research workflows to ensure your work is versioned, collaborative, and fully reproducible. 
+      
+Aakanksha brings industry experience in applied data science, with a background in analytics, modelling, and machine learning across various sectors.
+      
+Wednesday 25th June | 10:00 AM–1:00 PM (light lunch included) - Tom Reilly building, IT room 146a & b
+    
+Amie Longthorne & Susi Zajitschek – Research Data: From Funders’ Expectations to the Open Science Framework
+    
+Get practical advice on writing data management plans and selecting appropriate repositories to meet UKRI requirements, followed by an introduction to the Open Science Framework (OSF) — a platform to help you plan, manage, and share your research openly and transparently.
+     
+Monday 30th June | 10:30 AM–5:00 PM (includes lunch & breaks) – James Parsons building, room 3.10 
+
+Friederike Hillemann – Effective Collaboration in Research: Practical Skills for Teamwork and Reproducibility
+Important – Please bring your own laptop to code along!
+
+Build your skills in collaborative research, from communication strategies to shared documentation and reproducibility tools.
+Friederike is a behavioural ecologist with a strong commitment to open, collaborative, and reproducible research, drawing on her experience across both human and animal systems. She has contributed to long-term datasets and brings expertise in rigorous data management and transparent analytical workflows.
+
 
 
 
 ### Resources
 
-#### Downloadadble R script
+#### to do
 
-from ***[here](./ZajitschekHandbook_v3.pdf)***
+from ***[here](https://github.com/LJMUtRicks/bag-of-tricks/tree/main/files/)***
 
 
 #### Downloadadble datafile
