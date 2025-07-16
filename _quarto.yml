@@ -37,12 +37,17 @@ website:
       - section: Sessions
         text: Community Sessions
         contents: 
+          contents: 
           - href: Sessions/Overview.qmd
             text: Current Overview  
-          - href: Sessions/One.qmd
-            text: First session
-          - href: Sessions/Two.qmd
-            text: Second session          
+          - href: Sessions/3_2025.qmd
+            text: Session 1: March
+          - href: Sessions/4_2025.qmd
+            text: Session 2: April      
+          - href: Sessions/5_2025.qmd
+            text: Session 3: May
+          - href: Sessions/6_2025.qmd
+            text: Session 4: June        
       - href: about-bag.qmd
         text: About Bag of tRicks
       - href: about-BES.qmd
