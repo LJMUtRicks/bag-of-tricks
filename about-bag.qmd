@@ -2,4 +2,15 @@
 title: "About LJMU Bag of t R icks"
 ---
 
-so I need to do it again
+This is an attempt to start a "R User community" at Liverpool John Moores University, open to anyone from student to staff, beginner to pro. Questions about R? Struggling to find a way to best visualise your data? Found a new package that you're really excited about?
+
+THIS is where we will hear about it! The plan is to share I all resources here (and on the internal sharepoint site, it remains to be seen which of the two you find more useful!).
+
+If you're at LJMU and not yet part of the group, please get in touch and I'll add you. Obviously anyone from anywhere is welcome to browse our pool of resources on this github page, we hope you find it useful! :-)
+
+As this is pretty new still, I would be grateful for suggestions and feedback, and would be 
+particularly grateful for help with leading a session!
+“Presentations” may be as short as 10mins, just giving an overview of what you're sharing, and showing a worked example. The remaining time people can try to get this to work for themselves, with associated R markdown scripts shared here.
+
+We might also have occasional “clinics” where you bring and discuss your analysis/stats/plot problem and the community can help you find solutions - apologies that this is not very inclusive for our online-online participants! But I will be sharing useful resources as we go along and as they're discovered.
+

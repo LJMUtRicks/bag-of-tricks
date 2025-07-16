@@ -1,0 +1,313 @@
+---
+title: "Bot3 wrangling"
+author: "Susi Zajitschek"
+date: "2025-05-08"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAbElEQVR4Xs2RQQrAMAgEfZgf7W9LAguybljJpR3wEse5JOL3ZObDb4x1loDhHbBOFU6i2Ddnw2KNiXcdAXygJlwE8OFVBHDgKrLgSInN4WMe9iXiqIVsTMjH7z/GhNTEibOxQswcYIWYOR/zAjBJfiXh3jZ6AAAAAElFTkSuQmCC
+## Example from the powerpoint
+
+Using the built-in "iris" dataset, let's count how many of species “setosa” are wider than 0.2
+
+First, load the data:
+
+```{r}
+data(iris)
+```
+
+
+### Using Base R
+
+```{r}
+
+	sum(nrow(subset(iris, Species == "setosa" & Petal.Width > 0.2))) 
+
+```
+
+### Using dylpr
+```{r}
+
+library(dplyr) 
+
+	iris  %>% 
+		 filter(Species == "setosa", Petal.Width > 0.2)  %>% 			 summarise(sum_n = n())
+```
+
+
+# 1. Making a new variable
+
+Why? You may need to add a new category, or transform variables that you would like to analyse, a new variable that is a function of existing ones, or a new set of labels
+
+Let's try to make a ratio, for example Sepal by Petal Length
+```{r}
+newIris <- iris %>% 
+  mutate(ratio_SL_PL = Sepal.Length/Petal.Length)
+```
+
+and calculate petal leaf area, which we add directly to the new dataframe:
+
+```{r}
+newIris <- newIris %>%
+  mutate(Petal.Area = Petal.Length * Petal.Width)
+```
+
+### Renaming your variable/s
+```{r}
+newIris  <- rename(newIris,  Ratio = ratio_SL_PL)
+
+```
+NEW name first, then = old name
+
+
+## 1a. Making 2 variables into one
+
+
+use "unite" to combine parts of your data (i.e. if you have split colums you'd like to combine: for example: Habitat and season, year/month/day as one date column), example:
+
+df <- unite(df, "nameNEWvariable", c(variable1, variable2), sep = "_")
+
+
+### Adding a condition into this
+
+Back to iris data: I want to group the species based on having short or long petals (which here is me arbitrarily defining long = >5 and short anything below 5)
+
+```{r}
+newIris <- newIris %>%
+  mutate(
+    Species_PetalLength = paste(Species, ifelse(Petal.Length > 5, "LongPetal", "ShortPetal"), sep = "_")
+  )
+```
+
+## 1b. Separating a long variable into 2 separate ones:
+
+May be usieful of you have genus & species names combined in a colum and would like to separate them:
+
+df <- separate(df, combinedVar, c("Genus", "species"), sep = "_", remove = FALSE)
+
+```{r}
+library(tidyr)
+
+newIris <- separate(newIris, Species_PetalLength, c("SpeciesNew", "PL_new"), sep = "_", remove = FALSE)
+
+```
+
+# 2. Subsetting rows
+
+Based on certain criteria, you can "filter" your dataset.
+Common logical operators that you can use 
+     
+< less than
+> greater than
+== equal to
+<= less than or equal to
+>= greater than or equal to
+!= not equal to
+in.NA = is NA
+!is.na = is not NA
+
+```{r}
+?Comparison
+
+```
+
+We can also sample random subsets of your dataframe (for example if your dataframe is massibe and you'd like to explora a small random subset first, or you you're after resampling for bootstrapping)
+
+Here we sample 100 random rows from the iris dataset, creating a new df (the number of samples needs to be smaller than the samplescontained in your df!):
+```{r}
+iris.100 <- sample_n(newIris, 100, replace = FALSE)
+```
+
+Or you select the higest value (say top 3 in Petal.Area)
+```{r}
+iris.top <- top_n(newIris, 3, Petal.Area)
+```
+
+## 2a Removing duplicate rows
+
+df.distinct <- distinct(df)
+
+```{r}
+iris.distinct <- distinct(newIris)
+```
+
+## 2b Selecting colums (by name)
+
+
+```{r}
+IrisReduced <- select(newIris, Species, Petal.Area, PL_new)
+```
+
+There's a lot we can select,see
+?select
+
+for example we want a df that only contains information on something that is specified in the names of the columns, using Petals and sepals here:
+
+```{r}
+IrisPetalOnly <- select(newIris, contains("Petal"))
+IrisSepalOnly <- select(newIris, contains("Sepal"))
+```
+
+# 3. Summarising data
+
+The dataset is clean and manageable now, so we can start exploring. For example we'd like to know how large "large" compared to "short" petals are:
+```{r}
+
+newIris %>% 
+  filter(PL_new == "ShortPetal") %>%
+  summarise(Mean.PL = mean(Petal.Length))
+
+
+```
+
+
+this would require a separate operation for the LongPetal, OR: use group_by:
+```{r}
+ newIris %>%
+  group_by(PL_new) %>%
+  summarise(Mean.PL = mean(Petal.Length, na.rm = TRUE))
+```
+
+of course we can do much more than getting means, such as max, min, med, sd, se, IQR, n, ...
+
+This links to the ggplot 2 workshop - especially if we'd like to lot values such as means and SEs.
+
+```{r}
+# summary stats required for barchart
+
+iris.barplot <- iris %>% 
+    group_by(Species) %>% 
+  summarise(meanPetal.Length = mean(Petal.Length), SEPetal.Length =
+  sd(Petal.Length)/sqrt(length(Petal.Length)), lowerErr =(meanPetal.Length -
+SEPetal.Length), upperErr = (meanPetal.Length + SEPetal.Length))
+
+iris.barplot
+
+
+library(ggplot2)
+
+ggplot(iris.barplot, aes(x = Species, y = meanPetal.Length)) + geom_col(width
+= 0.5) + geom_errorbar(aes(ymin = lowerErr, ymax = upperErr), width = 0.1) +
+theme_bw()
+
+```
+
+
+# 4. Combining datasets
+
+You may have measured and recorded different things on the same specimen - they're now in different datasets, but there's a "unifying" variable (such as ID number). 
+
+Let's stay with our iris dataset and split it in two, so that we have something to combine! ;-)
+
+```{r}
+
+setosa <- subset(iris, Species == "setosa") 
+other <- subset(iris, Species != "setosa")
+
+# Add a common identifier 
+setosa$ID <- 1:nrow(setosa)
+other$ID <- 1:nrow(other)
+
+```
+
+There are many different ways to combine. 
+
+Base R: rbind()  
+Caveat: the order of the columns must match!! It does here so let's try
+
+```{r}
+combined_rbind <- rbind(setosa, other)
+```
+
+dplyr:
+bind_rows (order of columns doesn't strictly matter): 
+
+```{r}
+combined_bind_rows <- bind_rows(setosa, other)
+```
+
+If we've created summary stats and would like to merge them back into our original dataset, let's create a new Sepal length mean value
+
+```{r}
+ meanSL <- newIris %>%
+  group_by(Species) %>%
+  summarise(Mean.SL = mean(Sepal.Length, na.rm = TRUE))
+
+```
+
+now let's merge the new mean 
+
+```{r}
+merged_iris <- merge(iris, meanSL, by = "Species")
+head(merged_iris)
+```
+
+This was actually bas R - we can do this with dplyr, too.
+
+For this we're using "left-join". This function keeps all rows from the "first" dataframe, and preserves their order. This is particularly useful if you have one "main" dataframe that you'd like to add addional variables to.
+
+```{r}
+merged_dplyr <- iris %>%
+  left_join(meanSL, by = "Species")
+
+
+```
+
+*Note*: For particularly messy data (i.e. many of the IDs not overlapping in both datasets), you can look into 
+
+inner_join()   this will drop all data where the identifier is not present in both datasets
+
+right_join()   like left join, but preserve the second dataframe
+
+full_join()   you guessed it - this preserves all data
+
+# 5. Reshaping
+
+For some visualisations we may need the change the format of the dataframe. 
+
+As we're sticking with the iris dataset, let's create a "long" format from the original one, after adding and ID in
+
+```{r}
+irisID  <- iris %>%
+  mutate(Flower_ID = 1:n())  # adding an ID
+
+
+iris_long <- irisID %>%
+  pivot_longer(
+    cols = -c("Species", "Flower_ID"),  # Columns to pivot (all except Species and Flower ID)
+    names_to = "Measurement", # Name of the new column for measurement type
+    values_to = "Value"  #Name of the new column for the measurement value
+  )
+
+```
+
+lib
+what could that be useful for?
+
+```{r}
+ggplot(iris_long, aes(x = Measurement, y = Value, fill = Species)) +
+  geom_violin() +
+  labs(title = "Measurement Type and Species",
+       x = "Measurement Type",
+       y = "Value (cm)",
+       fill = "Species") +
+  theme_minimal()
+```
+The plot combines ALL measurements and shows species by colour; a similar visualisation in the original "iris" dataset would require 3 different plots.
+
+
+... and finally, let's practice to get from a long to a wide format:
+
+```{r}
+iris_wide <- iris_long %>%
+  pivot_wider(
+    id_cols = c(Species, Flower_ID),          # Columns that will remain as identifiers
+    names_from = Measurement,    # Column whose unique values will become new column names
+    values_from = Value         # Column whose values will populate the new columns
+  )
+```
+
+

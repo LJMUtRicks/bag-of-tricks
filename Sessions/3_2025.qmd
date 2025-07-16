@@ -5,26 +5,27 @@ editor:
     wrap: 72
 ---
 
-### Intro 
+### Intro & R Markdown
 
 My vision, your expectations - what is to be gained here?
-It looks like we have a diverse community here, both in terms of "self-assigned skill levels" as well as across Departments.
-If you want to look over the slides I used, here they are: 
 
-(soon ;-))
+It looks like we have a diverse community here, both in terms of "self-assigned skill levels" as well as across Departments.
+
+If you want to look over the slides I used, here they are: 
 
 
 ### Resources
 
-#### R script
+#### Downloadadble R script
 
-figure this out: for download
+figure this out
 
 
-#### Datafile
+#### Downloadadble datafile
 
-figure this out: for download
+figure this out
+
 
 #### Session led by
 
-tbd
+Susi Zajitschek

@@ -1,0 +1,26 @@
+---
+title: "April meeting"
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+### Plots in R: GGPLOT
+
+
+
+
+### Resources
+
+#### R script
+
+figure this out: for download
+
+
+#### Datafile
+
+figure this out: for download
+
+#### Session led by
+
+Susi Zajitschek
