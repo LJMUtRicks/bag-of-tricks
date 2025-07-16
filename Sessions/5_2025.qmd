@@ -7,16 +7,16 @@ editor:
 
 ### 
 
-My vision, your expectations - what is to be gained here?
+The third meeting - on data wrangling. Rearraning code, renaming, selecting, etc...
 
 
 ### Resources
 
 #### Downloadadble R script
 
-figure this out
+Find the rmd here to try the code yourself: ***[Wrangling](https://github.com/LJMUtRicks/bag-of-tricks/tree/main/files/Bot3_wrangling.Rmd)***
 
 
-#### Downloadadble datafile
+#### Downloadadble Intro file
 
-figure this out
+***[Wrangling presentation](https://github.com/LJMUtRicks/bag-of-tricks/tree/main/files/Bot3_wrangling.pdf)***

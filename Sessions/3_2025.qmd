@@ -18,12 +18,12 @@ If you want to look over the slides I used, here they are:
 
 #### Downloadadble R script
 
-figure this out
+***[Intro to RMD] (https://github.com/LJMUtRicks/bag-of-tricks/tree/main/files/session1.Rmd)***
 
 
 #### Downloadadble datafile
 
-figure this out
+***[Introductory slides:] (https://github.com/LJMUtRicks/bag-of-tricks/tree/main/files/bot1.pdf)*** 
 
 
 #### Session led by

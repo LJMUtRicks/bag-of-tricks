@@ -7,19 +7,23 @@ editor:
 
 ### Plots in R: GGPLOT
 
+Your intro guide to fancy plots!    
+Also check out the ggplot2 ***[cheatsheet:] (https://github.com/LJMUtRicks/bag-of-tricks/tree/main/files/data-visualisation.pdf)***
 
-
-
+And R graph gallery: https://r-graph-gallery.com/ 
+   
+   
 ### Resources
+#### Downloadadble datafile
+
+***[Introductory slides:] (https://github.com/LJMUtRicks/bag-of-tricks/tree/main/files/bot2.ggplot2.pdf)*** 
+
 
 #### R script
 
-figure this out: for download
+***[Intro to RMD] (https://github.com/LJMUtRicks/bag-of-tricks/tree/main/files/Bag_of_tRicks_ggplot2.Rmd)***
 
 
-#### Datafile
-
-figure this out: for download
 
 #### Session led by
 
