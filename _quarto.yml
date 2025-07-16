@@ -41,13 +41,13 @@ website:
           - href: Sessions/Overview.qmd
             text: Current Overview  
           - href: Sessions/3_2025.qmd
-            text: Session 1: March
+            text: Session March
           - href: Sessions/4_2025.qmd
-            text: Session 2: April      
+            text: Session April      
           - href: Sessions/5_2025.qmd
-            text: Session 3: May
+            text: Session May
           - href: Sessions/6_2025.qmd
-            text: Session 4: June        
+            text: Session June        
       - href: about-bag.qmd
         text: About Bag of tRicks
       - href: about-BES.qmd
