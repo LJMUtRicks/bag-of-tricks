@@ -1,5 +1,55 @@
 [
   {
+    "objectID": "about-BES.html",
+    "href": "about-BES.html",
+    "title": "School of Biological & Envrionmental Sciences",
+    "section": "",
+    "text": "Department within Liverpool John Moores University BES",
+    "crumbs": [
+      "About LJMU"
+    ]
+  },
+  {
+    "objectID": "about-BES.html#to-add-more",
+    "href": "about-BES.html#to-add-more",
+    "title": "School of Biological & Envrionmental Sciences",
+    "section": "To add more",
+    "text": "To add more\nto be added at a later date",
+    "crumbs": [
+      "About LJMU"
+    ]
+  },
+  {
+    "objectID": "resources.html",
+    "href": "resources.html",
+    "title": "Resources",
+    "section": "",
+    "text": "intro2r\nr-tutor\nR studio",
+    "crumbs": [
+      "Resources"
+    ]
+  },
+  {
+    "objectID": "resources.html#r-resources-getting-started",
+    "href": "resources.html#r-resources-getting-started",
+    "title": "Resources",
+    "section": "",
+    "text": "intro2r\nr-tutor\nR studio",
+    "crumbs": [
+      "Resources"
+    ]
+  },
+  {
+    "objectID": "resources.html#open-research",
+    "href": "resources.html#open-research",
+    "title": "Resources",
+    "section": "Open research",
+    "text": "Open research\nOpenscapes: How to make a website with Quarto",
+    "crumbs": [
+      "Resources"
+    ]
+  },
+  {
     "objectID": "contact.html",
     "href": "contact.html",
     "title": "Contact",
@@ -45,6 +95,17 @@
     "text": "Learn more\n\nOur story\nOur approach\nMore about our Champions Program\nMedia and publications on Openscapes"
   },
   {
+    "objectID": "Sessions/Overview.html",
+    "href": "Sessions/Overview.html",
+    "title": "Current Sessions",
+    "section": "",
+    "text": "2025 R user Community @LJMU\n\nIn person meetings (Wednesdays, mid-Month):\n\nMarch: visioning and Intro. What is rmd?\nApril: tbpd\nMay: tbd\nSummer break\n\n\n\n\nFirst session\nlink",
+    "crumbs": [
+      "Sessions",
+      "Current Overview"
+    ]
+  },
+  {
     "objectID": "Sessions/Two.html",
     "href": "Sessions/Two.html",
     "title": "First meeting",
@@ -56,14 +117,24 @@
     ]
   },
   {
-    "objectID": "Sessions/Overview.html",
-    "href": "Sessions/Overview.html",
-    "title": "Current Sessions",
+    "objectID": "Sessions/One.html",
+    "href": "Sessions/One.html",
+    "title": "First meeting",
     "section": "",
-    "text": "2025 R user Community @LJMU\n\nIn person meetings (Wednesdays, mid-Month):\n\nMarch: visioning and Intro. What is rmd?\nApril: tbpd\nMay: tbd\nSummer break\n\n\n\n\nFirst session\nlink",
+    "text": "Intro\nMy vision, your expectations - what is to be gained here?\n\n\nResources\n\nDownloadadble R script\nfigure this out\n\n\nDownloadadble datafile\nfigure this out",
     "crumbs": [
       "Sessions",
-      "Current Overview"
+      "First session"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "LJMU Bag of tRicks",
+    "section": "",
+    "text": "Sharing R tipps, gaining confidence\n\n1. Develop a community\nWho’s using R at LJMU? Who is really good at … x … Our R user Group hopefully helps curate a network!\nand gain experience\n\n\n2. Build confidence\nPresent your skills, and share your practice.\n\n\n3. Learn new skills\nLearn about R packages that are probably not used in your discipline - who knows what they might be useful for!\n\n\nWhy this page?\nBecause we need a space to host and share. And it’s been made in R Studio, so has relevance!",
+    "crumbs": [
+      "Home"
     ]
   },
   {
@@ -116,84 +187,13 @@
     "text": "This Code of Conduct is adapted from the Contributor Covenant, version 1.4, available at https://www.contributor-covenant.org/version/1/4/code-of-conduct.html\nFor answers to common questions about this code of conduct, see https://www.contributor-covenant.org/faq"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "LJMU Bag of tRicks",
-    "section": "",
-    "text": "Sharing R tipps, gaining confidence\n\n1. Develop a community\nWho’s using R at LJMU? Who is really good at … x … Our R user Group hopefully helps curate a network!\nand gain experience\n\n\n2. Build confidence\nPresent your skills, and share your practice.\n\n\n3. Learn new skills\nLearn about R packages that are probably not used in your discipline - who knows what they might be useful for!\n\n\nWhy this page?\nBecause we need a space to host and share. And it’s been made in R Studio, so has relevance!",
-    "crumbs": [
-      "Home"
-    ]
-  },
-  {
     "objectID": "about-bag.html",
     "href": "about-bag.html",
     "title": "About LJMU Bag of t R icks",
     "section": "",
-    "text": "This has just disappeared",
+    "text": "so I need to do it again",
     "crumbs": [
       "About Bag of tRicks"
-    ]
-  },
-  {
-    "objectID": "Sessions/One.html",
-    "href": "Sessions/One.html",
-    "title": "First meeting",
-    "section": "",
-    "text": "Intro\nMy vision, your expectations - what is to be gained here?\n\n\nResources\n\nDownloadadble R script\nfigure this out\n\n\nDownloadadble datafile\nfigure this out",
-    "crumbs": [
-      "Sessions",
-      "First session"
-    ]
-  },
-  {
-    "objectID": "resources.html",
-    "href": "resources.html",
-    "title": "Resources",
-    "section": "",
-    "text": "intro2r\nr-tutor\nR studio",
-    "crumbs": [
-      "Resources"
-    ]
-  },
-  {
-    "objectID": "resources.html#r-resources-getting-started",
-    "href": "resources.html#r-resources-getting-started",
-    "title": "Resources",
-    "section": "",
-    "text": "intro2r\nr-tutor\nR studio",
-    "crumbs": [
-      "Resources"
-    ]
-  },
-  {
-    "objectID": "resources.html#open-research",
-    "href": "resources.html#open-research",
-    "title": "Resources",
-    "section": "Open research",
-    "text": "Open research\nOpenscapes: How to make a website with Quarto",
-    "crumbs": [
-      "Resources"
-    ]
-  },
-  {
-    "objectID": "about-BES.html",
-    "href": "about-BES.html",
-    "title": "School of Biological & Envrionmental Sciences",
-    "section": "",
-    "text": "Department within Liverpool John Moores University BES",
-    "crumbs": [
-      "About LJMU"
-    ]
-  },
-  {
-    "objectID": "about-BES.html#to-add-more",
-    "href": "about-BES.html#to-add-more",
-    "title": "School of Biological & Envrionmental Sciences",
-    "section": "To add more",
-    "text": "To add more\nto be added at a later date",
-    "crumbs": [
-      "About LJMU"
     ]
   }
 ]
