@@ -10,11 +10,11 @@
     ]
   },
   {
-    "objectID": "about-BES.html#to-add-more",
-    "href": "about-BES.html#to-add-more",
+    "objectID": "about-BES.html#diverse-research-interests",
+    "href": "about-BES.html#diverse-research-interests",
     "title": "School of Biological & Envrionmental Sciences",
-    "section": "To add more",
-    "text": "To add more\nto be added at a later date",
+    "section": "Diverse Research Interests",
+    "text": "Diverse Research Interests\nWithin the school, we work on topics spanning from behavioural ecology to genomics and genetics, parasite-host interactions, neuro-endocrinology, forensic anthropology, marine biology, environmental physiology and dinosaur locomotion to wildlife conservation - all united by the use of R and R Studio.",
     "crumbs": [
       "About LJMU"
     ]
@@ -54,7 +54,7 @@
     "href": "contact.html",
     "title": "Contact",
     "section": "",
-    "text": "LJMU Bag of tRicks\ncurrently: Susi Zajitschek\nLJMU.bagoftricks @ gmail.com\ns.r.zajitschek @ ljmu.ac.uk\nPGR community\ntbd",
+    "text": "LJMU Bag of tRicks\ncurrently: Susi Zajitschek\nLJMU.bagoftricks @ gmail.com\ns.r.zajitschek @ ljmu.ac.uk\nPGR community\ntbd - volunteers please get in touch!",
     "crumbs": [
       "Contact"
     ]
@@ -99,32 +99,54 @@
     "href": "Sessions/Overview.html",
     "title": "Current Sessions",
     "section": "",
-    "text": "2025 R user Community @LJMU\n\nIn person meetings (Wednesdays, mid-Month):\n\nMarch: visioning and Intro. What is rmd?\nApril: tbpd\nMay: tbd\nSummer break\n\n\n\n\nFirst session\nlink",
+    "text": "2025 R user Community @LJMU\n\nIn person meetings (Wednesdays, mid-Month - starting Semester 2):\n\nMarch: visioning and Intro. What is rmd?\nApril: ggplot2\nMay: data wrangling\nJune: open science workshop series\nJuly: open session / troubleshooting Summer break\nSeptember: What is Github & how to use it with R\nOctober: Bookdown intro\nNovember: tbd\nDecember: Genomic data visualisation\n\n\n\n\n[March 2025] (https://ljmutricks.github.io/bag-of-tricks/Sessions/)\n#3_2025.qmd)\nIntroduction: “Why this group”? and using R markdown.\n\n\n[April 2025] (https://ljmutricks.github.io/bag-of-tricks/Sessions/)\n#4_2025.qmd\nGGplot2: basics, types of plots, colour schemes, combinations with beeswarm plots, violins, etc.\n\n\n[May 2025] (https://ljmutricks.github.io/bag-of-tricks/Sessions/)\n#5_2025.qmd\nGetting to know your raw dataset and how to tame it\n\n\n[June 2025] (https://ljmutricks.github.io/bag-of-tricks/Sessions/)\n#6_2025.html\nOpen Research workshop series: open data, collaborations, shareable code!",
     "crumbs": [
       "Sessions",
       "Current Overview"
     ]
   },
   {
-    "objectID": "Sessions/Two.html",
-    "href": "Sessions/Two.html",
-    "title": "First meeting",
+    "objectID": "Sessions/5_2025.html",
+    "href": "Sessions/5_2025.html",
+    "title": "May meeting",
     "section": "",
-    "text": "Intro\nMy vision, your expectations - what is to be gained here? It looks like we have a diverse community here, both in terms of “self-assigned skill levels” as well as across Departments. If you want to look over the slides I used, here they are:\n(soon ;-))\n\n\nResources\n\nR script\nfigure this out: for download\n\n\nDatafile\nfigure this out: for download\n\n\nSession led by\ntbd",
+    "text": "The third meeting - on data wrangling. Rearraning code, renaming, selecting, etc…\n\n\nResources\n\nDownloadadble R script\nFind the rmd here to try the code yourself: Wrangling\n\n\nDownloadadble Intro file\nWrangling presentation",
     "crumbs": [
       "Sessions",
-      "Second session"
+      "Session 3 May"
     ]
   },
   {
-    "objectID": "Sessions/One.html",
-    "href": "Sessions/One.html",
+    "objectID": "Sessions/3_2025.html",
+    "href": "Sessions/3_2025.html",
     "title": "First meeting",
     "section": "",
-    "text": "Intro\nMy vision, your expectations - what is to be gained here?\n\n\nResources\n\nDownloadadble R script\nfigure this out\n\n\nDownloadadble datafile\nfigure this out",
+    "text": "Intro & R Markdown\nMy vision, your expectations - what is to be gained here?\nIt looks like we have a diverse community here, both in terms of “self-assigned skill levels” as well as across Departments.\nIf you want to look over the slides I used, here they are:\n\n\nResources\n\nDownloadadble R script\n[Intro to RMD] (https://github.com/LJMUtRicks/bag-of-tricks/tree/main/files/session1.html)\n\n\nDownloadadble datafile\n[Introductory slides:] (https://github.com/LJMUtRicks/bag-of-tricks/tree/main/files/bot1.pdf)\n\n\nSession led by\nSusi Zajitschek",
     "crumbs": [
       "Sessions",
-      "First session"
+      "Session 1 March"
+    ]
+  },
+  {
+    "objectID": "Sessions/6_2025.html",
+    "href": "Sessions/6_2025.html",
+    "title": "June meeting",
+    "section": "",
+    "text": "Open Research Workshop Series\nWe’re excited to invite you to a short series of in-person practical workshops at Liverpool John Moores University (LJMU) focused on improving reproducibility, research collaboration, and data management. These sessions are open to all disciplines, including Science, Engineering and beyond, and are designed to be hands-on, accessible, and directly relevant to your work.\nWorkshop Schedule\nMonday 23rd June | 2:00–5:00 PM (with coffee & cake from 2:00 PM) – Tom Reilly building, IT room 146a & b\nAakanksha Chauhan – Reproducible Data Science in Practice: A Hands-On Git Workflow Workshop Learn how to use Git effectively in your day-to-day research workflows to ensure your work is versioned, collaborative, and fully reproducible.\nAakanksha brings industry experience in applied data science, with a background in analytics, modelling, and machine learning across various sectors.\nWednesday 25th June | 10:00 AM–1:00 PM (light lunch included) - Tom Reilly building, IT room 146a & b\nAmie Longthorne & Susi Zajitschek – Research Data: From Funders’ Expectations to the Open Science Framework\nGet practical advice on writing data management plans and selecting appropriate repositories to meet UKRI requirements, followed by an introduction to the Open Science Framework (OSF) — a platform to help you plan, manage, and share your research openly and transparently.\nMonday 30th June | 10:30 AM–5:00 PM (includes lunch & breaks) – James Parsons building, room 3.10\nFriederike Hillemann – Effective Collaboration in Research: Practical Skills for Teamwork and Reproducibility Important – Please bring your own laptop to code along!\nBuild your skills in collaborative research, from communication strategies to shared documentation and reproducibility tools. Friederike is a behavioural ecologist with a strong commitment to open, collaborative, and reproducible research, drawing on her experience across both human and animal systems. She has contributed to long-term datasets and brings expertise in rigorous data management and transparent analytical workflows.\n\n\nResources\n\nto do\nfrom here (https://github.com/LJMUtRicks/bag-of-tricks/tree/main/files/)",
+    "crumbs": [
+      "Sessions",
+      "Session 4 June"
+    ]
+  },
+  {
+    "objectID": "Sessions/4_2025.html",
+    "href": "Sessions/4_2025.html",
+    "title": "April meeting",
+    "section": "",
+    "text": "Plots in R: GGPLOT\nYour intro guide to fancy plots!\nAlso check out the ggplot2 [cheatsheet:] (https://github.com/LJMUtRicks/bag-of-tricks/tree/main/files/data-visualisation.pdf)\nAnd R graph gallery: https://r-graph-gallery.com/\n\n\nResources\n\nDownloadadble datafile\n[Introductory slides:] (https://github.com/LJMUtRicks/bag-of-tricks/tree/main/files/bot2.ggplot2.pdf)\n\n\nR script\n[Intro to RMD] (https://github.com/LJMUtRicks/bag-of-tricks/tree/main/files/Bag_of_tRicks_ggplot2.html)\n\n\nSession led by\nSusi Zajitschek",
+    "crumbs": [
+      "Sessions",
+      "Session 2 April"
     ]
   },
   {
@@ -191,7 +213,7 @@
     "href": "about-bag.html",
     "title": "About LJMU Bag of t R icks",
     "section": "",
-    "text": "so I need to do it again",
+    "text": "This is an attempt to start a “R User community” at Liverpool John Moores University, open to anyone from student to staff, beginner to pro. Questions about R? Struggling to find a way to best visualise your data? Found a new package that you’re really excited about?\nTHIS is where we will hear about it! The plan is to share I all resources here (and on the internal sharepoint site, it remains to be seen which of the two you find more useful!).\nIf you’re at LJMU and not yet part of the group, please get in touch and I’ll add you. Obviously anyone from anywhere is welcome to browse our pool of resources on this github page, we hope you find it useful! :-)\nAs this is pretty new still, I would be grateful for suggestions and feedback, and would be particularly grateful for help with leading a session! “Presentations” may be as short as 10mins, just giving an overview of what you’re sharing, and showing a worked example. The remaining time people can try to get this to work for themselves, with associated R markdown scripts shared here.\nWe might also have occasional “clinics” where you bring and discuss your analysis/stats/plot problem and the community can help you find solutions - apologies that this is not very inclusive for our online-online participants! But I will be sharing useful resources as we go along and as they’re discovered.",
     "crumbs": [
       "About Bag of tRicks"
     ]
