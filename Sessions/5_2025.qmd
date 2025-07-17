@@ -11,10 +11,11 @@ The third meeting - on data wrangling. Rearraning code, renaming, selecting, etc
 
 
 ### Resources
+#### Html version of the R script
 
-#### Downloadadble R script
+This is the "knitted" R file, you can copy the code into your own file: [tricks3](https://rpubs.com/SusZaj/tricks3)
 
-Find the rmd here to try the code yourself: ***[Wrangling](https://github.com/LJMUtRicks/bag-of-tricks/tree/main/files/Bot3_wrangling.html)***
+You can download this from the github repo: ***[Wrangling](https://github.com/LJMUtRicks/bag-of-tricks/tree/main/files/Bot3_wrangling.html)***
 
 
 #### Downloadadble Intro file

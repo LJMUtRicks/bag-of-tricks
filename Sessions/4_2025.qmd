@@ -10,7 +10,7 @@ editor:
 Your intro guide to fancy plots!    
 Also check out the ggplot2 ***[cheatsheet:] (https://github.com/LJMUtRicks/bag-of-tricks/tree/main/files/data-visualisation.pdf)***
 
-And R graph gallery: https://r-graph-gallery.com/ 
+And (R graph gallery)[https://r-graph-gallery.com/]
    
    
 ### Resources
@@ -19,8 +19,11 @@ And R graph gallery: https://r-graph-gallery.com/
 ***[Introductory slides:] (https://github.com/LJMUtRicks/bag-of-tricks/tree/main/files/bot2.ggplot2.pdf)*** 
 
 
-#### R script
+#### Html version of the R script
 
+This is the "knitted" R file, you can copy the code into your own file: [tricks2](https://rpubs.com/SusZaj/tricks2)
+
+You can download this from the github repo:
 ***[Intro to RMD] (https://github.com/LJMUtRicks/bag-of-tricks/tree/main/files/Bag_of_tRicks_ggplot2.html)***
 
 
