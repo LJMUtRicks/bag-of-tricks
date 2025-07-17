@@ -99,7 +99,7 @@
     "href": "Sessions/Overview.html",
     "title": "Current Sessions",
     "section": "",
-    "text": "2025 R user Community @LJMU\n\nIn person meetings (Wednesdays, mid-Month - starting Semester 2):\n\nMarch: visioning and Intro. What is rmd?\nApril: ggplot2\nMay: data wrangling\nJune: open science workshop series\nJuly: open session / troubleshooting Summer break\nSeptember: What is Github & how to use it with R\nOctober: Bookdown intro\nNovember: tbd\nDecember: Genomic data visualisation\n\n\n\n\nMarch 2025\nIntroduction: “Why this group”? and using R markdown.\n\n\nApril 2025\nGGplot2: basics, types of plots, colour schemes, combinations with beeswarm plots, violins, etc.\n\n\nMay 2025\n#5_2025.qmd\nGetting to know your raw dataset and how to tame it\n\n\nJune 2025\nOpen Research workshop series: open data, collaborations, shareable code!",
+    "text": "2025 R user Community @LJMU\n\nIn person meetings (Wednesdays, mid-Month - starting Semester 2):\n\nMarch: visioning and Intro. What is rmd?\nApril: ggplot2\nMay: data wrangling\nJune: open science workshop series\nJuly: open session / troubleshooting Summer break\nSeptember: What is Github & how to use it with R\nOctober: Bookdown intro\nNovember: tbd\nDecember: Genomic data visualisation\n\n\n\n\nMarch 2025\nIntroduction: “Why this group”? and using R markdown.\n\n\nApril 2025\nGGplot2: basics, types of plots, colour schemes, combinations with beeswarm plots, violins, etc.\n\n\nMay 2025\nGetting to know your raw dataset and how to tame it\n\n\nJune 2025\nOpen Research workshop series: open data, collaborations, shareable code!",
     "crumbs": [
       "Sessions",
       "Current Overview"
