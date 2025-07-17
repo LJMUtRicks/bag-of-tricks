@@ -17,18 +17,22 @@ title: "Current Sessions"
     -   **December:**  Genomic data visualisation
 
 
-### [March 2025] (https://ljmutricks.github.io/bag-of-tricks/Sessions/3_2025.html)
+### [March 2025] (https://ljmutricks.github.io/bag-of-tricks/Sessions/)
+#3_2025.qmd)
     
 Introduction: "Why this group"? and using R markdown.
  
-### [April 2025] (https://ljmutricks.github.io/bag-of-tricks/Sessions/4_2025.html)
+### [April 2025] (https://ljmutricks.github.io/bag-of-tricks/Sessions/)
+#4_2025.qmd
 
 GGplot2: basics, types of plots, colour schemes, combinations with beeswarm plots, violins, etc.
 
-### [May 2025] (https://ljmutricks.github.io/bag-of-tricks/Sessions/5_2025.html)
+### [May 2025] (https://ljmutricks.github.io/bag-of-tricks/Sessions/)
+#5_2025.qmd
 
 Getting to know your raw dataset and how to tame it
 
-### [June 2025] (https://ljmutricks.github.io/bag-of-tricks/Sessions/6_2025.html)
+### [June 2025] (https://ljmutricks.github.io/bag-of-tricks/Sessions/)
+#6_2025.html
 
 Open Research workshop series: open data, collaborations, shareable code!
