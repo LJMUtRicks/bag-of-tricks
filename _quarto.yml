@@ -39,11 +39,11 @@ website:
         contents: 
           contents: 
           - href: Sessions/Overview.qmd
-            text: Current Overview  
+            text: Current Overview
           - href: Sessions/3_2025.qmd
             text: Session 1: March
           - href: Sessions/4_2025.qmd
-            text: Session 2: April      
+            text: Session 2: April
           - href: Sessions/5_2025.qmd
             text: Session 3: May
           - href: Sessions/6_2025.qmd
