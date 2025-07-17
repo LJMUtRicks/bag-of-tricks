@@ -121,7 +121,7 @@
     "href": "Sessions/3_2025.html",
     "title": "First meeting",
     "section": "",
-    "text": "Intro & R Markdown\nMy vision, your expectations - what is to be gained here?\nIt looks like we have a diverse community here, both in terms of “self-assigned skill levels” as well as across Departments.\nIf you want to look over the slides I used, here they are:\n\n\nResources\n\nDownloadadble R script\n[Intro to RMD] (https://github.com/LJMUtRicks/bag-of-tricks/tree/main/files/session1.html)\n\n\nDownloadadble datafile\n[Introductory slides:] (https://github.com/LJMUtRicks/bag-of-tricks/tree/main/files/bot1.pdf)\n\n\nSession led by\nSusi Zajitschek",
+    "text": "Intro & R Markdown\nMy vision, your expectations - what is to be gained here?\nIt looks like we have a diverse community here, both in terms of “self-assigned skill levels” as well as across Departments.\nIf you want to look over the slides I used, here they are:\n\n\nResources\n\nHtml version of the R script\nThis is the “knitted” R file, you can copy the code into your own file: https://rpubs.com/SusZaj/tricks1\nYou can download this from the github repo: [Intro to RMD] (https://github.com/LJMUtRicks/bag-of-tricks/tree/main/files/session1.html)\n\n\nDownloadadble datafile\n[Introductory slides:] (https://github.com/LJMUtRicks/bag-of-tricks/tree/main/files/bot1.pdf)\n\n\nSession led by\nSusi Zajitschek",
     "crumbs": [
       "Sessions",
       "Session 1 March"
