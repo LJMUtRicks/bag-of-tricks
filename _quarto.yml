@@ -37,7 +37,6 @@ website:
       - section: Sessions
         text: Community Sessions
         contents: 
-          contents: 
           - href: Sessions/Overview.qmd
             text: Current Overview
           - href: Sessions/3_2025.qmd
