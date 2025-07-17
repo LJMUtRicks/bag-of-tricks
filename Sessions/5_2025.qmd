@@ -14,7 +14,7 @@ The third meeting - on data wrangling. Rearraning code, renaming, selecting, etc
 
 #### Downloadadble R script
 
-Find the rmd here to try the code yourself: ***[Wrangling](https://github.com/LJMUtRicks/bag-of-tricks/tree/main/files/Bot3_wrangling.Rmd)***
+Find the rmd here to try the code yourself: ***[Wrangling](https://github.com/LJMUtRicks/bag-of-tricks/tree/main/files/Bot3_wrangling.html)***
 
 
 #### Downloadadble Intro file

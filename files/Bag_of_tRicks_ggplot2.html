@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+<meta name="author" content="Susi Zajitschek" />
+
+<meta name="date" content="2025-04-05" />
+
+<title>Bag of tRicks: ggplot2</title>
+
+<script src="Bag_of_tRicks_ggplot2_files/header-attrs-2.29/header-attrs.js"></script>
+<script src="Bag_of_tRicks_ggplot2_files/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="Bag_of_tRicks_ggplot2_files/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="Bag_of_tRicks_ggplot2_files/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="Bag_of_tRicks_ggplot2_files/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="Bag_of_tRicks_ggplot2_files/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="Bag_of_tRicks_ggplot2_files/jqueryui-1.13.2/jquery-ui.min.js"></script>
+<link href="Bag_of_tRicks_ggplot2_files/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="Bag_of_tRicks_ggplot2_files/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="Bag_of_tRicks_ggplot2_files/navigation-1.1/tabsets.js"></script>
+<link href="Bag_of_tRicks_ggplot2_files/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="Bag_of_tRicks_ggplot2_files/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
+
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Bag of tRicks: ggplot2</h1>
+<h4 class="author">Susi Zajitschek</h4>
+<h4 class="date">2025-04-05</h4>
+
+</div>
+
+
+<div id="download" class="section level2">
+<h2>Download</h2>
+<p>Click here:</p>
+<p><a download="Bag_oftRicks_ggplot2.Rmd" href="Bag_oftRicks_ggplot2.Rmd">Download
+Rmd Code</a></p>
+<p>Download and save file, and open in R Studio (doesn’t matter if it
+shows file extension html or rmd, if will be executable as markdown)</p>
+</div>
+<div id="r-basic-plots" class="section level2">
+<h2>R basic plots</h2>
+<pre class="r"><code>data(iris)
+str(iris)</code></pre>
+<pre><code>## &#39;data.frame&#39;:    150 obs. of  5 variables:
+##  $ Sepal.Length: num  5.1 4.9 4.7 4.6 5 5.4 4.6 5 4.4 4.9 ...
+##  $ Sepal.Width : num  3.5 3 3.2 3.1 3.6 3.9 3.4 3.4 2.9 3.1 ...
+##  $ Petal.Length: num  1.4 1.4 1.3 1.5 1.4 1.7 1.4 1.5 1.4 1.5 ...
+##  $ Petal.Width : num  0.2 0.2 0.2 0.2 0.2 0.4 0.3 0.2 0.2 0.1 ...
+##  $ Species     : Factor w/ 3 levels &quot;setosa&quot;,&quot;versicolor&quot;,..: 1 1 1 1 1 1 1 1 1 1 ...</code></pre>
+</div>
+<div id="histogram-one-continuous-variable" class="section level2">
+<h2>Histogram (one continuous variable)</h2>
+<pre class="r"><code>    hist(iris$Sepal.Length)</code></pre>
+<p><img src="Bag_of_tRicks_ggplot2_files/figure-html/unnamed-chunk-2-1.png" width="672" /></p>
+</div>
+<div id="two-continuous-scatterplot" class="section level2">
+<h2>Two continuous (scatterplot)</h2>
+<p>plot(y ~ x, data = df)</p>
+<pre class="r"><code>plot(Petal.Length ~ Sepal.Length, data = iris)</code></pre>
+<p><img src="Bag_of_tRicks_ggplot2_files/figure-html/unnamed-chunk-3-1.png" width="672" /></p>
+</div>
+<div id="modifications" class="section level2">
+<h2>Modifications</h2>
+<p>plot(y ~ x, data = df, xlab = “X axis name (unit)”, ylab = “Y axis
+name(unit)”, main = “Figure title“, ylim = c(0, 80))</p>
+<pre class="r"><code>plot(Petal.Length ~ Sepal.Length, data = iris, xlab = &quot;Sepal Length (cm)&quot;, ylab = &quot;Petal Length (cm)&quot;, main = &quot;Iris Flower measurements&quot;, ylim = c(0, 10))</code></pre>
+<p><img src="Bag_of_tRicks_ggplot2_files/figure-html/unnamed-chunk-4-1.png" width="672" /></p>
+</div>
+<div id="ggplot-2" class="section level2">
+<h2>GGPLOT 2</h2>
+<pre class="r"><code>library(ggplot2)</code></pre>
+<pre class="r"><code>ggplot(iris, aes(Sepal.Length, Petal.Length)) +
+  geom_point() +
+  labs(y = &quot;Petal length (cm)&quot;, x = &quot;Sepal length (cm)&quot;)</code></pre>
+<p><img src="Bag_of_tRicks_ggplot2_files/figure-html/unnamed-chunk-6-1.png" width="672" />
+So That’s basically the same as the base R plot</p>
+</div>
+<div id="reminder-titles-and-axes-labels" class="section level2">
+<h2>Reminder: Titles and Axes Labels</h2>
+<div id="adding-a-title" class="section level3">
+<h3>Adding a title</h3>
+<p>Add the code <code>+ggtitle("Your Title Here")</code> Don’t forget
+quotation marks at the start and end!</p>
+</div>
+<div id="changing-axis-labels" class="section level3">
+<h3>Changing axis labels</h3>
+<p>To alter the labels on the axis, add the code
+<code>+labs(y= "y axis name", x = "x axis name")</code> to your line of
+basic ggplot code.</p>
+<pre class="r"><code>ggplot(iris, aes(Sepal.Length, Petal.Length)) +
+  geom_point() +
+  labs(y = &quot;Petal length (cm)&quot;, x = &quot;Sepal length (cm)&quot;) +
+   ggtitle(&quot;Petal and sepal length of iris&quot;)</code></pre>
+<p><img src="Bag_of_tRicks_ggplot2_files/figure-html/unnamed-chunk-7-1.png" width="672" /></p>
+<p>Let’s modify, add colours by factor:</p>
+<pre class="r"><code>ggplot(iris, aes(Sepal.Length, Petal.Length, colour = Species)) +
+  geom_point() +
+  labs(y = &quot;Petal length (cm)&quot;, x = &quot;Sepal length (cm)&quot;)</code></pre>
+<p><img src="Bag_of_tRicks_ggplot2_files/figure-html/unnamed-chunk-8-1.png" width="672" /></p>
+</div>
+<div id="themes" class="section level3">
+<h3>Themes</h3>
+<p>Modify how your plot looks</p>
+<pre class="r"><code>ggplot(iris, aes(Sepal.Length, Petal.Length, colour = Species)) +
+  geom_point() +
+  theme_bw() +
+  labs(y = &quot;Petal length (cm)&quot;, x = &quot;Sepal length (cm)&quot;)</code></pre>
+<p><img src="Bag_of_tRicks_ggplot2_files/figure-html/unnamed-chunk-9-1.png" width="672" /></p>
+<p>Play around, for example with</p>
+<p>theme_light, theme_dark, theme_minimal, theme_classic</p>
+<pre class="r"><code>ggplot(iris, aes(Sepal.Length, Petal.Length, colour = Species)) +
+  geom_point() +
+  theme_classic() +
+  labs(y = &quot;Petal length (cm)&quot;, x = &quot;Sepal length (cm)&quot;)</code></pre>
+<p><img src="Bag_of_tRicks_ggplot2_files/figure-html/unnamed-chunk-10-1.png" width="672" /></p>
+<p>ggplot2 is very customisable, you can remove parts from themes, or
+write your own theme (not fully covered here)</p>
+<pre class="r"><code>ggplot(iris, aes(Sepal.Length, Petal.Length, colour = Species)) +
+  geom_point() +
+  theme(axis.ticks = element_blank()) +
+  labs(y = &quot;Petal length (cm)&quot;, x = &quot;Sepal length (cm)&quot;)</code></pre>
+<p><img src="Bag_of_tRicks_ggplot2_files/figure-html/unnamed-chunk-11-1.png" width="672" /></p>
+<pre class="r"><code>ggplot(iris, aes(Sepal.Length, Petal.Length, colour = Species)) +
+  geom_point() +
+  theme(panel.background = element_blank()) +
+  labs(y = &quot;Petal length (cm)&quot;, x = &quot;Sepal length (cm)&quot;)</code></pre>
+<p><img src="Bag_of_tRicks_ggplot2_files/figure-html/unnamed-chunk-11-2.png" width="672" /></p>
+<p>or change the font (size etc), location of you legend:</p>
+<pre class="r"><code>ggplot(iris, aes(Sepal.Length, Petal.Length, colour = Species)) +
+  geom_point() +
+  theme(panel.background = element_blank()) +
+  theme(legend.position = &quot;bottom&quot;, legend.text = element_text(size = 14),
+  legend.title = element_text(size = 18, face = &quot;bold&quot; ), axis.title= element_text(size = 20))+
+    labs(y = &quot;Petal length (cm)&quot;, x = &quot;Sepal length (cm)&quot;) </code></pre>
+<p><img src="Bag_of_tRicks_ggplot2_files/figure-html/unnamed-chunk-12-1.png" width="672" /></p>
+<p>Instead of COLOUR, change the shape (and/or size of your
+“points”)</p>
+<pre class="r"><code>ggplot(iris, aes(Sepal.Length, Petal.Length, shape = Species)) +
+  geom_point(size = 2.5, alpha = 0.6) +
+  theme(panel.background = element_blank()) +
+  theme(legend.position = &quot;bottom&quot;, legend.text = element_text(size = 14),
+  legend.title = element_text(size = 18, face = &quot;bold&quot; ), axis.title= element_text(size = 20))+
+    labs(y = &quot;Petal length (cm)&quot;, x = &quot;Sepal length (cm)&quot;) </code></pre>
+<p><img src="Bag_of_tRicks_ggplot2_files/figure-html/unnamed-chunk-13-1.png" width="672" /></p>
+<p>Or customise your colours:</p>
+<pre class="r"><code>ggplot(iris, aes(Petal.Length, Sepal.Length)) +
+  geom_point(color=&quot;red&quot;) </code></pre>
+<p><img src="Bag_of_tRicks_ggplot2_files/figure-html/unnamed-chunk-14-1.png" width="672" /></p>
+<p>If gradients are useful -e.g. a third variable is added into the
+picture (don’t forget to specify which variable defines the
+gradient!)</p>
+<pre class="r"><code>ggplot(iris, aes(Petal.Length, Sepal.Length, colour = Sepal.Width)) +
+  geom_point() + scale_colour_gradient(low = &quot;black&quot;, high = &quot;white&quot;)+
+  theme_classic()</code></pre>
+<p><img src="Bag_of_tRicks_ggplot2_files/figure-html/unnamed-chunk-15-1.png" width="672" /></p>
+<pre class="r"><code>ggplot(iris, aes(Petal.Length, Sepal.Length, colour = Sepal.Width)) +
+  geom_point() + scale_colour_gradient(low = &quot;pink&quot;, high = &quot;blue&quot;)</code></pre>
+<p><img src="Bag_of_tRicks_ggplot2_files/figure-html/unnamed-chunk-15-2.png" width="672" /></p>
+</div>
+<div id="additional-useful-functions" class="section level3">
+<h3>Additional useful functions</h3>
+<p>adding trendlines:</p>
+<pre class="r"><code>irispoint &lt;- ggplot(data = iris, aes(x = Petal.Width, y = Petal.Length)) +
+geom_point(aes(colour = Species), size = 5, alpha = 0.3) +
+geom_line(stat=&quot;smooth&quot;, method = &quot;lm&quot;, alpha = 0.3) +
+geom_line(aes(group = Species, colour = Species), stat=&quot;smooth&quot;, method =
+&quot;lm&quot;, lwd = 0.5) +
+theme_bw()
+
+irispoint</code></pre>
+<pre><code>## `geom_smooth()` using formula = &#39;y ~ x&#39;
+## `geom_smooth()` using formula = &#39;y ~ x&#39;</code></pre>
+<p><img src="Bag_of_tRicks_ggplot2_files/figure-html/unnamed-chunk-16-1.png" width="672" /></p>
+<div id="splitting-by-factors" class="section level4">
+<h4>Splitting by factors:</h4>
+<p>facet_wrap()</p>
+<pre class="r"><code>ggplot(data = iris, aes(x = Sepal.Length, y = Sepal.Width, colour = Species)) +
+geom_point( size = 5, alpha = 0.3) +
+geom_line(stat=&quot;smooth&quot;, method = &quot;lm&quot;, alpha = 2) +
+  facet_wrap(&quot;Species&quot;)+
+theme_bw()</code></pre>
+<pre><code>## `geom_smooth()` using formula = &#39;y ~ x&#39;</code></pre>
+<p><img src="Bag_of_tRicks_ggplot2_files/figure-html/unnamed-chunk-17-1.png" width="672" /></p>
+<p>BOXPLOTS</p>
+<pre class="r"><code>ggplot(iris, aes(x = Species, y = Petal.Length)) +
+    geom_boxplot() +
+    theme_bw()</code></pre>
+<p><img src="Bag_of_tRicks_ggplot2_files/figure-html/unnamed-chunk-18-1.png" width="672" /></p>
+<p>Visualising the spread of your data: VIOLINPLOTS particularly useful
+together with JITTER (rather than geom_point)</p>
+<pre class="r"><code>ggplot(data = iris, aes(x = Species, y = Petal.Length)) +
+geom_violin(trim = F) + 
+geom_jitter(col = &quot;purple&quot;, size = 2, alpha = 0.2) +
+stat_summary(fun.data = &quot;mean_se&quot;, col = &quot;green&quot;) +
+theme_bw()</code></pre>
+<p><img src="Bag_of_tRicks_ggplot2_files/figure-html/unnamed-chunk-19-1.png" width="672" /></p>
+<p>If you want to add info on your median: add a boxplot</p>
+<pre class="r"><code>ggplot(data = iris, aes(x = Species, y = Petal.Length)) +
+geom_violin(trim = F) + 
+  
+  geom_boxplot() +
+  
+geom_jitter(col = &quot;purple&quot;, size = 2, alpha = 0.2) +
+stat_summary(fun.data = &quot;mean_se&quot;, col = &quot;green&quot;) +
+theme_bw() </code></pre>
+<p><img src="Bag_of_tRicks_ggplot2_files/figure-html/unnamed-chunk-20-1.png" width="672" /></p>
+</div>
+<div id="assign-colours-from-a-pre-made-pallette"
+class="section level4">
+<h4>Assign colours from a pre-made pallette</h4>
+<p>using <code>+ scale_colour_brewer()</code> or
+<code>+ scale_fill_brewer</code>. Install the package <a
+href="https://cran.r-project.org/web/packages/RColorBrewer/index.html">RColorBrewer</a>
+and load in R.</p>
+<p>here’s what there is: <a
+href="https://r-graph-gallery.com/38-rcolorbrewers-palettes.html"
+class="uri">https://r-graph-gallery.com/38-rcolorbrewers-palettes.html</a></p>
+<pre class="r"><code>library(RColorBrewer)</code></pre>
+<p>I saved one of the scatterplots above as “irispoint”, so instead of
+re-running the full block of code I can now modify the existing
+object:</p>
+<pre class="r"><code>print(irispoint + scale_colour_brewer(palette = &quot;Dark2&quot;))</code></pre>
+<pre><code>## `geom_smooth()` using formula = &#39;y ~ x&#39;
+## `geom_smooth()` using formula = &#39;y ~ x&#39;</code></pre>
+<p><img src="Bag_of_tRicks_ggplot2_files/figure-html/unnamed-chunk-22-1.png" width="672" /></p>
+<pre class="r"><code>print(irispoint + scale_colour_brewer(palette = &quot;RdPu&quot;))</code></pre>
+<pre><code>## `geom_smooth()` using formula = &#39;y ~ x&#39;
+## `geom_smooth()` using formula = &#39;y ~ x&#39;</code></pre>
+<p><img src="Bag_of_tRicks_ggplot2_files/figure-html/unnamed-chunk-22-2.png" width="672" /></p>
+<p>Help on all the ggplot functions can be found at the <a
+href="https://ggplot2.tidyverse.org">The master ggplot help
+site</a>.</p>
+</div>
+</div>
+</div>
+
+
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+<script>
+$(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

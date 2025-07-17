@@ -1,18 +1,33 @@
 ---
 title: "First workshop"
-output: 
+output:
   html_document:
-    toc: TRUE
-    toc_float: TRUE
+    self_contained: false
+    toc: true
+    toc_float: true
 ---
-
-
-## YAML
 
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+
+## Download
+ 
+ Click here:   
+ <a download="session1.Rmd" href="session1.Rmd">Download Rmd Code</a>
+   
+Download and save file, and open in R Studio (doesn't matter if it shows file extension html or rmd, if will be executable as markdown)
+
+## YAML
+
+title: "First workshop"
+output:
+  html_document:
+    self_contained: false
+    toc: true
+    toc_float: true
+``
 
 ## R Markdown
 

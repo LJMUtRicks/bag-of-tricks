@@ -38,9 +38,7 @@ Friederike is a behavioural ecologist with a strong commitment to open, collabor
 
 #### to do
 
-from ***[here](https://github.com/LJMUtRicks/bag-of-tricks/tree/main/files/)***
+from ***here (https://github.com/LJMUtRicks/bag-of-tricks/tree/main/files/)***
 
 
-#### Downloadadble datafile
 
-figure this out

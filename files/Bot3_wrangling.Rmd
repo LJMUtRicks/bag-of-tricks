@@ -2,43 +2,34 @@
 title: "Bot3 wrangling"
 author: "Susi Zajitschek"
 date: "2025-05-08"
-output: html_document
+output:
+  html_document:
+    self_contained: false
+    toc: true
+    toc_float: true
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## Example from the powerpoint
+## Download
 
-Using the built-in "iris" dataset, let's count how many of species “setosa” are wider than 0.2
-
-First, load the data:
-
+Click here:
+   
+ <a download="Bot3_wrangling.Rmd" href="Bot3_wrangling.Rmd">Download Rmd Code</a>
+ 
+     
+Download and save file, and open in R Studio (doesn't matter if it shows file extension html or rmd, if will be executable as markdown)
+ 
 ```{r}
-data(iris)
+library(dplyr)
+
 ```
 
 
-### Using Base R
 
-```{r}
-
-	sum(nrow(subset(iris, Species == "setosa" & Petal.Width > 0.2))) 
-
-```
-
-### Using dylpr
-```{r}
-
-library(dplyr) 
-
-	iris  %>% 
-		 filter(Species == "setosa", Petal.Width > 0.2)  %>% 			 summarise(sum_n = n())
-```
-
-
-# 1. Making a new variable
+## 1. Making a new variable
 
 Why? You may need to add a new category, or transform variables that you would like to analyse, a new variable that is a function of existing ones, or a new set of labels
 

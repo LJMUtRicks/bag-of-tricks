@@ -18,7 +18,7 @@ If you want to look over the slides I used, here they are:
 
 #### Downloadadble R script
 
-***[Intro to RMD] (https://github.com/LJMUtRicks/bag-of-tricks/tree/main/files/session1.Rmd)***
+***[Intro to RMD] (https://github.com/LJMUtRicks/bag-of-tricks/tree/main/files/session1.html)***
 
 
 #### Downloadadble datafile

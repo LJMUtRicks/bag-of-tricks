@@ -21,7 +21,7 @@ And R graph gallery: https://r-graph-gallery.com/
 
 #### R script
 
-***[Intro to RMD] (https://github.com/LJMUtRicks/bag-of-tricks/tree/main/files/Bag_of_tRicks_ggplot2.Rmd)***
+***[Intro to RMD] (https://github.com/LJMUtRicks/bag-of-tricks/tree/main/files/Bag_of_tRicks_ggplot2.html)***
 
 
 
