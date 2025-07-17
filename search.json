@@ -113,7 +113,7 @@
     "text": "The third meeting - on data wrangling. Rearraning code, renaming, selecting, etc…\n\n\nResources\n\nHtml version of the R script\nThis is the “knitted” R file, you can copy the code into your own file: tricks3\nYou can download this from the github repo: Wrangling\n\n\nDownloadadble Intro file\nWrangling presentation",
     "crumbs": [
       "Sessions",
-      "Session 3 May"
+      "Session 3 Data wrangling"
     ]
   },
   {
@@ -124,7 +124,7 @@
     "text": "Intro & R Markdown\nMy vision, your expectations - what is to be gained here?\nIt looks like we have a diverse community here, both in terms of “self-assigned skill levels” as well as across Departments.\nIf you want to look over the slides I used, here they are:\n\n\nResources\n\nHtml version of the R script\nThis is the “knitted” R file, you can copy the code into your own file: tricks1\nYou can download this from the github repo: Intro to RMD\n\n\nDownloadadble datafile\nIntroductory slides:\n\n\nSession led by\nSusi Zajitschek",
     "crumbs": [
       "Sessions",
-      "Session 1 March"
+      "Session 1 Intro"
     ]
   },
   {
@@ -135,7 +135,7 @@
     "text": "Open Research Workshop Series\nWe’re excited to invite you to a short series of in-person practical workshops at Liverpool John Moores University (LJMU) focused on improving reproducibility, research collaboration, and data management. These sessions are open to all disciplines, including Science, Engineering and beyond, and are designed to be hands-on, accessible, and directly relevant to your work.\n\nWorkshop Schedule\nMonday 23rd June | 2:00–5:00 PM (with coffee & cake from 2:00 PM) – Tom Reilly building, IT room 146a & b\nAakanksha Chauhan – Reproducible Data Science in Practice: A Hands-On Git Workflow Workshop\nLearn how to use Git effectively in your day-to-day research workflows to ensure your work is versioned, collaborative, and fully reproducible.\nAakanksha brings industry experience in applied data science, with a background in analytics, modelling, and machine learning across various sectors.\nWednesday 25th June | 10:00 AM–1:00 PM (light lunch included) - Tom Reilly building, IT room 146a & b\nAmie Longthorne & Susi Zajitschek – Research Data: From Funders’ Expectations to the Open Science Framework\nGet practical advice on writing data management plans and selecting appropriate repositories to meet UKRI requirements, followed by an introduction to the Open Science Framework (OSF) — a platform to help you plan, manage, and share your research openly and transparently.\nMonday 30th June | 10:30 AM–5:00 PM (includes lunch & breaks) – James Parsons building, room 3.10\nFriederike Hillemann – Effective Collaboration in Research: Practical Skills for Teamwork and Reproducibility Important – Please bring your own laptop to code along!\nBuild your skills in collaborative research, from communication strategies to shared documentation and reproducibility tools. Friederike is a behavioural ecologist with a strong commitment to open, collaborative, and reproducible research, drawing on her experience across both human and animal systems. She has contributed to long-term datasets and brings expertise in rigorous data management and transparent analytical workflows.\n\n\n\nResources\n\nOpen Science\nOur recently created BES Best practise handboook! can be viewed and/or downloaded as pdf from the School’s website.\nInformation from the library on open datasets , data management plans and info on open publishing assistance\nAn Introduction to the Open Science Framework to organise your projects and share workflows with collborators: OSF intro\n\n\nCode review\nBest practice for your code, and a workflow to review (yours and other’s) code before publishing: check out Friederieke Hillermann’s work: Githut repository: Shiny app for code review\nOSF SORTEE project, collaboration: Code review workshop\nOr copy the CODE directly into a new r scrip and execute to open your code review checklist!\n\n\nOpen Data Science\nIf you’re interested in more advance data science version control, check out Akankshas Github repo",
     "crumbs": [
       "Sessions",
-      "Session 4 June"
+      "Session 4 Open Research workshops"
     ]
   },
   {
@@ -146,7 +146,7 @@
     "text": "Plots in R: GGPLOT\nYour intro guide to fancy plots!\nAlso check out the ggplot2cheatsheet\nAnd R graph gallery\n\n\nResources\nIntroductory slides\n\nHtml version of the R script\nThis is the “knitted” R file, you can copy the code into your own file: tricks2\nYou can download this from the github repo: Intro to RMD\n\n\nSession led by\nSusi Zajitschek",
     "crumbs": [
       "Sessions",
-      "Session 2 April"
+      "Session 2 Ggplot2"
     ]
   },
   {
