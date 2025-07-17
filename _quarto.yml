@@ -40,13 +40,13 @@ website:
           - href: Sessions/Overview.qmd
             text: Current Overview
           - href: Sessions/3_2025.qmd
-            text: Session 1 March
+            text: Session 1 Intro
           - href: Sessions/4_2025.qmd
-            text: Session 2 April
+            text: Session 2 Ggplot2
           - href: Sessions/5_2025.qmd
-            text: Session 3 May
+            text: Session 3 Wrangling
           - href: Sessions/6_2025.qmd
-            text: Session 4 June 
+            text: Session 4 Open Science
       - href: about-bag.qmd
         text: About Bag of tRicks
       - href: about-BES.qmd
