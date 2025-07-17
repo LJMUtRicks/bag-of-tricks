@@ -16,8 +16,11 @@ If you want to look over the slides I used, here they are:
 
 ### Resources
 
-#### Downloadadble R script
+#### Html version of the R script
 
+This is the "knitted" R file, you can copy the code into your own file: https://rpubs.com/SusZaj/tricks1
+
+You can download this from the github repo:
 ***[Intro to RMD] (https://github.com/LJMUtRicks/bag-of-tricks/tree/main/files/session1.html)***
 
 
