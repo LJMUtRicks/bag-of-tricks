@@ -47,6 +47,8 @@ website:
             text: Session 3 Wrangling
           - href: Sessions/6_2025.qmd
             text: Session 4 Open Science
+          - href: Sessions/9_2025.qmd
+            text: Session 5 GitHub Intro
       - href: about-bag.qmd
         text: About Bag of tRicks
       - href: about-BES.qmd

@@ -33,3 +33,6 @@ Getting to know your raw dataset and how to tame it
 ### [June 2025](https://ljmutricks.github.io/bag-of-tricks/Sessions/6_2025.html)
 
 Open Research workshop series: open data, collaborations, shareable code!
+
+
+### [September 2025](https://ljmutricks.github.io/bag-of-tricks/Sessions/9_2025.html)
