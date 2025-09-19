@@ -44,17 +44,11 @@ website:
           - href: Sessions/4_2025.qmd
             text: Session 2 Ggplot2
           - href: Sessions/5_2025.qmd
-<<<<<<< HEAD
             text: Session 3 Wrangling
           - href: Sessions/6_2025.qmd
             text: Session 4 Open Science
           - href: Sessions/9_2025.qmd
             text: Session 5 GitHub Intro
-=======
-            text: Session 3 Data wrangling
-          - href: Sessions/6_2025.qmd
-            text: Session 4 Open Research workshops
->>>>>>> 1319ff26e1840202a9b9d6a056df39fce9e18f87
       - href: about-bag.qmd
         text: About Bag of tRicks
       - href: about-BES.qmd
