@@ -35,3 +35,5 @@ Open Research workshop series: open data, collaborations, shareable code!
 
 
 ### [September 2025](https://ljmutricks.github.io/bag-of-tricks/Sessions/9_2025.html)
+   
+   We're continuing in the spirit of reproducible and shareable code: Learn how to use GitHub Desktop (and/or the Git integration in R Studio), for organised and collaborative work in R!
