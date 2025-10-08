@@ -1,20 +1,20 @@
 ---
-title: "October meeting"
+title: "November meeting"
 editor:
   markdown: 
     wrap: 72
 ---
 
-### Bookdown in R
+### OPEN SESSION
 
-This month's session, led by Peter Shum, will give us an Introduction to R Bookdown. Join us 1-2pm next Wednesday (October 15th) in Byrom Street JP 3.24.
+Nothing in particular planned for this session - but please still come along to have a chat about old resources, new things you've found, or an R problem that's bugging you.  This will take place  1-2pm on Wednesday November 19th in Byrom Street JP XXX (room booking to be confirmed).
 
    
 ### Resources
 
-There may be material provided by Peter that will be shared here later!
+If we're discussing anything share-worthy, this will be provided here.
 
     
 #### Session led by
 
-Peter Shum
+Susi Zajitschek

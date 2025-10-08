@@ -1,0 +1,20 @@
+---
+title: "December meeting"
+editor:
+  markdown: 
+    wrap: 72
+---
+
+### Plotting genomic data
+
+Once again we have Peter Shum sharing his knowledge, this time about large-scal genomic data. Planned for December 10th, 1-2pm, room tbc.
+
+   
+### Resources
+
+There may be material provided by Peter that will be shared here later!
+
+    
+#### Session led by
+
+Peter Shum
