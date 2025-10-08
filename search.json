@@ -1,93 +1,5 @@
 [
   {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Contact",
-    "section": "",
-    "text": "LJMU Bag of tRicks\ncurrently: Susi Zajitschek\nLJMU.bagoftricks @ gmail.com\ns.r.zajitschek @ ljmu.ac.uk\nPGR community\ntbd - volunteers please get in touch!",
-    "crumbs": [
-      "Contact"
-    ]
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "LJMU Bag of tRicks",
-    "section": "",
-    "text": "Sharing R tipps, gaining confidence\n\n1. Develop a community\nWho’s using R at LJMU? Who is has recently come across an exciting new package, learnt a new R skill, or is a pro at something R-related that may be useful for the rest of us?\nOur R user Group hopefully helps curate a network!\nIn addition - and that’s more aimed at the PGR participants - here’s your opportunity to gain experience in teaching/presenting! It’s short, it’s hands-on, it can go on your CV.\n\n\n2. Build confidence\nPresent your skills, and share your practice!\n\n\n3. Learn new skills\nLearn about R packages that are probably not used in your discipline - who knows what they might be useful for!\n\n\nWhy this page?\nBecause we need a space to host and share. And it’s been made in R Studio, so has relevance!",
-    "crumbs": [
-      "Home"
-    ]
-  },
-  {
-    "objectID": "Sessions/4_2025.html",
-    "href": "Sessions/4_2025.html",
-    "title": "April meeting",
-    "section": "",
-    "text": "Plots in R: GGPLOT\nYour intro guide to fancy plots!\nAlso check out the ggplot2cheatsheet\nAnd R graph gallery\n\n\nResources\nIntroductory slides\n\nHtml version of the R script\nThis is the “knitted” R file, you can copy the code into your own file: tricks2\nYou can download this from the github repo: Intro to RMD\n\n\nSession led by\nSusi Zajitschek",
-    "crumbs": [
-      "Sessions",
-      "Session 2 Ggplot2"
-    ]
-  },
-  {
-    "objectID": "Sessions/6_2025.html",
-    "href": "Sessions/6_2025.html",
-    "title": "June meeting",
-    "section": "",
-    "text": "Open Research Workshop Series\nWe’re excited to invite you to a short series of in-person practical workshops at Liverpool John Moores University (LJMU) focused on improving reproducibility, research collaboration, and data management. These sessions are open to all disciplines, including Science, Engineering and beyond, and are designed to be hands-on, accessible, and directly relevant to your work.\n\nWorkshop Schedule\nMonday 23rd June | 2:00–5:00 PM (with coffee & cake from 2:00 PM) – Tom Reilly building, IT room 146a & b\nAakanksha Chauhan – Reproducible Data Science in Practice: A Hands-On Git Workflow Workshop\nLearn how to use Git effectively in your day-to-day research workflows to ensure your work is versioned, collaborative, and fully reproducible.\nAakanksha brings industry experience in applied data science, with a background in analytics, modelling, and machine learning across various sectors.\nWednesday 25th June | 10:00 AM–1:00 PM (light lunch included) - Tom Reilly building, IT room 146a & b\nAmie Longthorne & Susi Zajitschek – Research Data: From Funders’ Expectations to the Open Science Framework\nGet practical advice on writing data management plans and selecting appropriate repositories to meet UKRI requirements, followed by an introduction to the Open Science Framework (OSF) — a platform to help you plan, manage, and share your research openly and transparently.\nMonday 30th June | 10:30 AM–5:00 PM (includes lunch & breaks) – James Parsons building, room 3.10\nFriederike Hillemann – Effective Collaboration in Research: Practical Skills for Teamwork and Reproducibility Important – Please bring your own laptop to code along!\nBuild your skills in collaborative research, from communication strategies to shared documentation and reproducibility tools. Friederike is a behavioural ecologist with a strong commitment to open, collaborative, and reproducible research, drawing on her experience across both human and animal systems. She has contributed to long-term datasets and brings expertise in rigorous data management and transparent analytical workflows.\n\n\n\nResources\n\nOpen Science\nOur recently created BES Best practise handboook! can be viewed and/or downloaded as pdf from the School’s website.\nInformation from the library on open datasets , data management plans and info on open publishing assistance\nAn Introduction to the Open Science Framework to organise your projects and share workflows with collborators: OSF intro\n\n\nCode review\nBest practice for your code, and a workflow to review (yours and other’s) code before publishing: check out Friederieke Hillermann’s work: Githut repository: Shiny app for code review\nOSF SORTEE project, collaboration: Code review workshop\nOr copy the CODE directly into a new r scrip and execute to open your code review checklist!\n\n\nOpen Data Science\nIf you’re interested in more advance data science version control, check out Akankshas Github repo",
-    "crumbs": [
-      "Sessions",
-      "Session 4 Open Science"
-    ]
-  },
-  {
-    "objectID": "Sessions/9_2025.html",
-    "href": "Sessions/9_2025.html",
-    "title": "September meeting",
-    "section": "",
-    "text": "Open Research: GitHub for R users\nWe’re excited to invite you to a hands on session in one of LJMU’s IT rooms, to finally get your Git / GitHub journey started, and facilitate version control. Join us on September 17th, 1-2pm in Byrom Street room 3.18.\nThis session is lead by Felix Zajitschek: What is Git/Github, and how do I use it with R?\n\n\nResources\n\nThe hands-on course\nTo facilitate self-guided learning for those who weren’t able to come in person, Felix has created a website/course (in GitHub!) to follow along:\nzajitschek.github.io/git_workshop_LJMU_2025\nAddendum to the course, for LJMU managed PCs:\nPlease note that there may be slight differences on different LJMU managed machines (some still have the APP players, others only the COMPANY PORTAL). For the Git tab to be showing in your R Studio environment on you managed computer, you’ll need to install Git (or Git GUI) and restart your R Studio.\nPlease get in touch with feedback / questions, and/or requests to do a repeat or follow up of this, either in person or online.\n\n\nSession led by\nFelix Zajitschek",
-    "crumbs": [
-      "Sessions",
-      "Session 5 GitHub Intro"
-    ]
-  },
-  {
-    "objectID": "about-openscapes.html",
-    "href": "about-openscapes.html",
-    "title": "Openscapes",
-    "section": "",
-    "text": "Openscapes is an open source approach and a movement. It is a way to work together that shifts culture by helping people find each other and collaboratively evolve their work with modern and kind open data science workflows. Openscapes launched in 2018 through funding from Mozilla, via an open science fellowship awarded to Julie Lowndes. Openscapes grew with funding from NASA Earthdata, via decades-long community building leadership by Erin Robinson. In addition to our flagship Champions program that helps science teams shift workflows to open science, we lead multi-year projects with NASA and NOAA. Our NASA work supports scientific researchers using data from NASA Distributed Active Archive Centers (DAACs) as they migrate workflows to the cloud; our NOAA work is part of the Biden-Harris Administration’s Inflation Reduction Act funds to support NOAA Fisheries’ data, infrastructure, and workforce modernization. We were recently recognized by The White House for our movement building in open science."
-  },
-  {
-    "objectID": "about-openscapes.html#openscapes-approach",
-    "href": "about-openscapes.html#openscapes-approach",
-    "title": "Openscapes",
-    "section": "Openscapes approach",
-    "text": "Openscapes approach\nOpenscapes champions open, inclusive practices in environmental and Earth science to help uncover data-intensive solutions faster. We do this through our flagship Champions mentorship program, as well as through community organizing, training, and coaching, leveraging existing resources from open communities along with our own.\nOur flywheel shows our approach to engaging, empowering, and amplifying research communities in open data science — how we describe kinder, better science in less time.\n\n\n\nFigure 1 from Robinson & Lowndes 2022. The Openscapes Flywheel builds momentum as a culture change engine as We engage a Future Us mindset through welcoming and creating space and place, we Empower a learning culture by investing in learning and trust, and working openly, and we amplify open leaders by leveraging common open data science workflows, skills and tools and inspire broader scientific culture change. And the Flywheel turns again."
-  },
-  {
-    "objectID": "about-openscapes.html#our-work",
-    "href": "about-openscapes.html#our-work",
-    "title": "Openscapes",
-    "section": "Our work",
-    "text": "Our work\nAlong with NOAA Fisheries, we are proud to work with many teams leading and supporting research, including NASA, California EPA Water Boards, Fred Hutch, the Pathways to Open Science Program. Learn more about these initiatives on our website: openscapes.org/initiatives.\nA few recent talks highlighting NOAA Fisheries with these other collaborators, see Cross-government Openscapes presentations."
-  },
-  {
-    "objectID": "about-openscapes.html#learn-more",
-    "href": "about-openscapes.html#learn-more",
-    "title": "Openscapes",
-    "section": "Learn more",
-    "text": "Learn more\nLowndes et al 2024. Shifting institutional culture to develop climate solutions with Open Science. Ecology & Evolution\nFredston & Lowndes 2024. Welcoming More Participation in Open Data Science for the Oceans, Annual Review of Marine Science.\nRobinson & Lowndes 2022. The Openscapes Flywheel: A framework for managers to facilitate and scale inclusive Open science practices. Preprint\nLowndes. 2019. Open software mean kinder science. Scientific American.\nLowndes et al. 2019. Supercharge your research: a ten-week plan for open data science Nature Career Column. 31 October 2019\nLowndes et al. 2017. Our path to better science in less time using open data science tools. Nature Ecology and Evolution 1, 0160."
-  },
-  {
-    "objectID": "about-openscapes.html#learn-more-1",
-    "href": "about-openscapes.html#learn-more-1",
-    "title": "Openscapes",
-    "section": "Learn more",
-    "text": "Learn more\n\nOur story\nOur approach\nMore about our Champions Program\nMedia and publications on Openscapes"
-  },
-  {
     "objectID": "resources.html",
     "href": "resources.html",
     "title": "Resources",
@@ -115,69 +27,6 @@
     "text": "Open research\nOpenscapes: How to make a website with Quarto",
     "crumbs": [
       "Resources"
-    ]
-  },
-  {
-    "objectID": "about-BES.html",
-    "href": "about-BES.html",
-    "title": "School of Biological & Envrionmental Sciences",
-    "section": "",
-    "text": "Department within Liverpool John Moores University BES",
-    "crumbs": [
-      "About LJMU"
-    ]
-  },
-  {
-    "objectID": "about-BES.html#diverse-research-interests",
-    "href": "about-BES.html#diverse-research-interests",
-    "title": "School of Biological & Envrionmental Sciences",
-    "section": "Diverse Research Interests",
-    "text": "Diverse Research Interests\nWithin the school, we work on topics spanning from behavioural ecology to genomics and genetics, parasite-host interactions, neuro-endocrinology, forensic anthropology, marine biology, environmental physiology and dinosaur locomotion to wildlife conservation - all united by the use of R and R Studio.",
-    "crumbs": [
-      "About LJMU"
-    ]
-  },
-  {
-    "objectID": "about-bag.html",
-    "href": "about-bag.html",
-    "title": "About LJMU Bag of t R icks",
-    "section": "",
-    "text": "This is an attempt to start a “R User community” at Liverpool John Moores University, open to anyone from student to staff, beginner to pro. Questions about R? Struggling to find a way to best visualise your data? Found a new package that you’re really excited about?\nTHIS is where we will hear about it! The plan is to share I all resources here (and on the internal sharepoint site, it remains to be seen which of the two you find more useful!).\nIf you’re at LJMU and not yet part of the group, please get in touch and I’ll add you. Obviously anyone from anywhere is welcome to browse our pool of resources on this github page, we hope you find it useful! :-)\nAs this is pretty new still, I would be grateful for suggestions and feedback, and would be particularly grateful for help with leading a session! “Presentations” may be as short as 10mins, just giving an overview of what you’re sharing, and showing a worked example. The remaining time people can try to get this to work for themselves, with associated R markdown scripts shared here.\nWe might also have occasional “clinics” where you bring and discuss your analysis/stats/plot problem and the community can help you find solutions - apologies that this is not very inclusive for our online-online participants! But I will be sharing useful resources as we go along and as they’re discovered.",
-    "crumbs": [
-      "About Bag of tRicks"
-    ]
-  },
-  {
-    "objectID": "Sessions/Overview.html",
-    "href": "Sessions/Overview.html",
-    "title": "Current Sessions",
-    "section": "",
-    "text": "2025 R user Community @LJMU\n\nIn person meetings (Wednesdays, mid-Month - starting Semester 2):\n\nMarch: visioning and Intro. What is rmd?\nApril: ggplot2\nMay: data wrangling\nJune: open science workshop series\nJuly: open session / troubleshooting Summer break\nSeptember: What is Github & how to use it with R\nOctober: Bookdown intro\nNovember: tbd\nDecember: Genomic data visualisation\n\n\n\n\nMarch 2025\nIntroduction: “Why this group”? and using R markdown.\n\n\nApril 2025\nGGplot2: basics, types of plots, colour schemes, combinations with beeswarm plots, violins, etc.\n\n\nMay 2025\nGetting to know your raw dataset and how to tame it\n\n\nJune 2025\nOpen Research workshop series: open data, collaborations, shareable code!\n\n\nSeptember 2025\nWe’re continuing in the spirit of reproducible and shareable code: Learn how to use GitHub Desktop (and/or the Git integration in R Studio), for organised and collaborative work in R!",
-    "crumbs": [
-      "Sessions",
-      "Current Overview"
-    ]
-  },
-  {
-    "objectID": "Sessions/5_2025.html",
-    "href": "Sessions/5_2025.html",
-    "title": "May meeting",
-    "section": "",
-    "text": "The third meeting - on data wrangling. Rearraning code, renaming, selecting, etc…\n\n\nResources\n\nHtml version of the R script\nThis is the “knitted” R file, you can copy the code into your own file: tricks3\nYou can download this from the github repo: Wrangling\n\n\nDownloadadble Intro file\nWrangling presentation",
-    "crumbs": [
-      "Sessions",
-      "Session 3 Wrangling"
-    ]
-  },
-  {
-    "objectID": "Sessions/3_2025.html",
-    "href": "Sessions/3_2025.html",
-    "title": "First meeting",
-    "section": "",
-    "text": "Intro & R Markdown\nMy vision, your expectations - what is to be gained here?\nIt looks like we have a diverse community here, both in terms of “self-assigned skill levels” as well as across Departments.\nIf you want to look over the slides I used, here they are:\n\n\nResources\n\nHtml version of the R script\nThis is the “knitted” R file, you can copy the code into your own file: tricks1\nYou can download this from the github repo: Intro to RMD\n\n\nDownloadadble datafile\nIntroductory slides:\n\n\nSession led by\nSusi Zajitschek",
-    "crumbs": [
-      "Sessions",
-      "Session 1 Intro"
     ]
   },
   {
@@ -228,5 +77,177 @@
     "title": "Contributor Covenant Code of Conduct",
     "section": "",
     "text": "This Code of Conduct is adapted from the Contributor Covenant, version 1.4, available at https://www.contributor-covenant.org/version/1/4/code-of-conduct.html\nFor answers to common questions about this code of conduct, see https://www.contributor-covenant.org/faq"
+  },
+  {
+    "objectID": "about-openscapes.html",
+    "href": "about-openscapes.html",
+    "title": "Openscapes",
+    "section": "",
+    "text": "Openscapes is an open source approach and a movement. It is a way to work together that shifts culture by helping people find each other and collaboratively evolve their work with modern and kind open data science workflows. Openscapes launched in 2018 through funding from Mozilla, via an open science fellowship awarded to Julie Lowndes. Openscapes grew with funding from NASA Earthdata, via decades-long community building leadership by Erin Robinson. In addition to our flagship Champions program that helps science teams shift workflows to open science, we lead multi-year projects with NASA and NOAA. Our NASA work supports scientific researchers using data from NASA Distributed Active Archive Centers (DAACs) as they migrate workflows to the cloud; our NOAA work is part of the Biden-Harris Administration’s Inflation Reduction Act funds to support NOAA Fisheries’ data, infrastructure, and workforce modernization. We were recently recognized by The White House for our movement building in open science."
+  },
+  {
+    "objectID": "about-openscapes.html#openscapes-approach",
+    "href": "about-openscapes.html#openscapes-approach",
+    "title": "Openscapes",
+    "section": "Openscapes approach",
+    "text": "Openscapes approach\nOpenscapes champions open, inclusive practices in environmental and Earth science to help uncover data-intensive solutions faster. We do this through our flagship Champions mentorship program, as well as through community organizing, training, and coaching, leveraging existing resources from open communities along with our own.\nOur flywheel shows our approach to engaging, empowering, and amplifying research communities in open data science — how we describe kinder, better science in less time.\n\n\n\nFigure 1 from Robinson & Lowndes 2022. The Openscapes Flywheel builds momentum as a culture change engine as We engage a Future Us mindset through welcoming and creating space and place, we Empower a learning culture by investing in learning and trust, and working openly, and we amplify open leaders by leveraging common open data science workflows, skills and tools and inspire broader scientific culture change. And the Flywheel turns again."
+  },
+  {
+    "objectID": "about-openscapes.html#our-work",
+    "href": "about-openscapes.html#our-work",
+    "title": "Openscapes",
+    "section": "Our work",
+    "text": "Our work\nAlong with NOAA Fisheries, we are proud to work with many teams leading and supporting research, including NASA, California EPA Water Boards, Fred Hutch, the Pathways to Open Science Program. Learn more about these initiatives on our website: openscapes.org/initiatives.\nA few recent talks highlighting NOAA Fisheries with these other collaborators, see Cross-government Openscapes presentations."
+  },
+  {
+    "objectID": "about-openscapes.html#learn-more",
+    "href": "about-openscapes.html#learn-more",
+    "title": "Openscapes",
+    "section": "Learn more",
+    "text": "Learn more\nLowndes et al 2024. Shifting institutional culture to develop climate solutions with Open Science. Ecology & Evolution\nFredston & Lowndes 2024. Welcoming More Participation in Open Data Science for the Oceans, Annual Review of Marine Science.\nRobinson & Lowndes 2022. The Openscapes Flywheel: A framework for managers to facilitate and scale inclusive Open science practices. Preprint\nLowndes. 2019. Open software mean kinder science. Scientific American.\nLowndes et al. 2019. Supercharge your research: a ten-week plan for open data science Nature Career Column. 31 October 2019\nLowndes et al. 2017. Our path to better science in less time using open data science tools. Nature Ecology and Evolution 1, 0160."
+  },
+  {
+    "objectID": "about-openscapes.html#learn-more-1",
+    "href": "about-openscapes.html#learn-more-1",
+    "title": "Openscapes",
+    "section": "Learn more",
+    "text": "Learn more\n\nOur story\nOur approach\nMore about our Champions Program\nMedia and publications on Openscapes"
+  },
+  {
+    "objectID": "Sessions/3_2025.html",
+    "href": "Sessions/3_2025.html",
+    "title": "First meeting",
+    "section": "",
+    "text": "Intro & R Markdown\nMy vision, your expectations - what is to be gained here?\nIt looks like we have a diverse community here, both in terms of “self-assigned skill levels” as well as across Departments.\nIf you want to look over the slides I used, here they are:\n\n\nResources\n\nHtml version of the R script\nThis is the “knitted” R file, you can copy the code into your own file: tricks1\nYou can download this from the github repo: Intro to RMD\n\n\nDownloadadble datafile\nIntroductory slides:\n\n\nSession led by\nSusi Zajitschek",
+    "crumbs": [
+      "Sessions",
+      "Session 1 Intro"
+    ]
+  },
+  {
+    "objectID": "Sessions/CopyOf10_2025.html",
+    "href": "Sessions/CopyOf10_2025.html",
+    "title": "October meeting",
+    "section": "",
+    "text": "Bookdown in R\nThis month’s session, led by Peter Shum, will give us an Introduction to R Bookdown. Join us 1-2pm next Wednesday (October 15th) in Byrom Street JP 3.24.\n\n\nResources\nThere may be material provided by Peter that will be shared here later!\n\nSession led by\nPeter Shum"
+  },
+  {
+    "objectID": "Sessions/10_2025.html",
+    "href": "Sessions/10_2025.html",
+    "title": "October meeting",
+    "section": "",
+    "text": "Bookdown in R\nThis month’s session, led by Peter Shum, will give us an Introduction to R Bookdown. Join us 1-2pm next Wednesday (October 15th) in Byrom Street JP 3.24.\n\n\nResources\nThere may be material provided by Peter that will be shared here later!\n\nSession led by\nPeter Shum"
+  },
+  {
+    "objectID": "Sessions/6_2025.html",
+    "href": "Sessions/6_2025.html",
+    "title": "June meeting",
+    "section": "",
+    "text": "Open Research Workshop Series\nWe’re excited to invite you to a short series of in-person practical workshops at Liverpool John Moores University (LJMU) focused on improving reproducibility, research collaboration, and data management. These sessions are open to all disciplines, including Science, Engineering and beyond, and are designed to be hands-on, accessible, and directly relevant to your work.\n\nWorkshop Schedule\nMonday 23rd June | 2:00–5:00 PM (with coffee & cake from 2:00 PM) – Tom Reilly building, IT room 146a & b\nAakanksha Chauhan – Reproducible Data Science in Practice: A Hands-On Git Workflow Workshop\nLearn how to use Git effectively in your day-to-day research workflows to ensure your work is versioned, collaborative, and fully reproducible.\nAakanksha brings industry experience in applied data science, with a background in analytics, modelling, and machine learning across various sectors.\nWednesday 25th June | 10:00 AM–1:00 PM (light lunch included) - Tom Reilly building, IT room 146a & b\nAmie Longthorne & Susi Zajitschek – Research Data: From Funders’ Expectations to the Open Science Framework\nGet practical advice on writing data management plans and selecting appropriate repositories to meet UKRI requirements, followed by an introduction to the Open Science Framework (OSF) — a platform to help you plan, manage, and share your research openly and transparently.\nMonday 30th June | 10:30 AM–5:00 PM (includes lunch & breaks) – James Parsons building, room 3.10\nFriederike Hillemann – Effective Collaboration in Research: Practical Skills for Teamwork and Reproducibility Important – Please bring your own laptop to code along!\nBuild your skills in collaborative research, from communication strategies to shared documentation and reproducibility tools. Friederike is a behavioural ecologist with a strong commitment to open, collaborative, and reproducible research, drawing on her experience across both human and animal systems. She has contributed to long-term datasets and brings expertise in rigorous data management and transparent analytical workflows.\n\n\n\nResources\n\nOpen Science\nOur recently created BES Best practise handboook! can be viewed and/or downloaded as pdf from the School’s website.\nInformation from the library on open datasets , data management plans and info on open publishing assistance\nAn Introduction to the Open Science Framework to organise your projects and share workflows with collborators: OSF intro\n\n\nCode review\nBest practice for your code, and a workflow to review (yours and other’s) code before publishing: check out Friederieke Hillermann’s work: Githut repository: Shiny app for code review\nOSF SORTEE project, collaboration: Code review workshop\nOr copy the CODE directly into a new r scrip and execute to open your code review checklist!\n\n\nOpen Data Science\nIf you’re interested in more advance data science version control, check out Akankshas Github repo",
+    "crumbs": [
+      "Sessions",
+      "Session 4 Open Science"
+    ]
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "LJMU Bag of tRicks\ncurrently: Susi Zajitschek\nLJMU.bagoftricks @ gmail.com\ns.r.zajitschek @ ljmu.ac.uk\nPGR community\ntbd - volunteers please get in touch!",
+    "crumbs": [
+      "Contact"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "LJMU Bag of tRicks",
+    "section": "",
+    "text": "Sharing R tipps, gaining confidence\n\n1. Develop a community\nWho’s using R at LJMU? Who is has recently come across an exciting new package, learnt a new R skill, or is a pro at something R-related that may be useful for the rest of us?\nOur R user Group hopefully helps curate a network!\nIn addition - and that’s more aimed at the PGR participants - here’s your opportunity to gain experience in teaching/presenting! It’s short, it’s hands-on, it can go on your CV.\n\n\n2. Build confidence\nPresent your skills, and share your practice!\n\n\n3. Learn new skills\nLearn about R packages that are probably not used in your discipline - who knows what they might be useful for!\n\n\nWhy this page?\nBecause we need a space to host and share. And it’s been made in R Studio, so has relevance!",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "Sessions/Overview.html",
+    "href": "Sessions/Overview.html",
+    "title": "Current Sessions",
+    "section": "",
+    "text": "2025 R user Community @LJMU\n\nIn person meetings (Wednesdays, mid-Month - starting Semester 2):\n\nMarch: visioning and Intro. What is rmd?\nApril: ggplot2\nMay: data wrangling\nJune: open science workshop series\nJuly: open session / troubleshooting Summer break\nSeptember: What is Github & how to use it with R\nOctober: Bookdown intro\nNovember: tbd\nDecember: Genomic data visualisation\n\n\n\n\nMarch 2025\nIntroduction: “Why this group”? and using R markdown.\n\n\nApril 2025\nGGplot2: basics, types of plots, colour schemes, combinations with beeswarm plots, violins, etc.\n\n\nMay 2025\nGetting to know your raw dataset and how to tame it\n\n\nJune 2025\nOpen Research workshop series: open data, collaborations, shareable code!\n\n\nSeptember 2025\nWe’re continuing in the spirit of reproducible and shareable code: Learn how to use GitHub Desktop (and/or the Git integration in R Studio), for organised and collaborative work in R!\n\n\nOctober 2025\nJoin us for an Introduction to R Bookdown with Peter Shum.\n\n\nNovember 2025\nNo particular new skill planned - just come along to an open session for a chat or bring your R problem!",
+    "crumbs": [
+      "Sessions",
+      "Current Overview"
+    ]
+  },
+  {
+    "objectID": "Sessions/5_2025.html",
+    "href": "Sessions/5_2025.html",
+    "title": "May meeting",
+    "section": "",
+    "text": "The third meeting - on data wrangling. Rearraning code, renaming, selecting, etc…\n\n\nResources\n\nHtml version of the R script\nThis is the “knitted” R file, you can copy the code into your own file: tricks3\nYou can download this from the github repo: Wrangling\n\n\nDownloadadble Intro file\nWrangling presentation",
+    "crumbs": [
+      "Sessions",
+      "Session 3 Wrangling"
+    ]
+  },
+  {
+    "objectID": "Sessions/9_2025.html",
+    "href": "Sessions/9_2025.html",
+    "title": "September meeting",
+    "section": "",
+    "text": "Open Research: GitHub for R users\nWe’re excited to invite you to a hands on session in one of LJMU’s IT rooms, to finally get your Git / GitHub journey started, and facilitate version control. Join us on September 17th, 1-2pm in Byrom Street room 3.18.\nThis session is lead by Felix Zajitschek: What is Git/Github, and how do I use it with R?\n\n\nResources\n\nThe hands-on course\nTo facilitate self-guided learning for those who weren’t able to come in person, Felix has created a website/course (in GitHub!) to follow along:\nzajitschek.github.io/git_workshop_LJMU_2025\nAddendum to the course, for LJMU managed PCs:\nPlease note that there may be slight differences on different LJMU managed machines (some still have the APP players, others only the COMPANY PORTAL). For the Git tab to be showing in your R Studio environment on you managed computer, you’ll need to install Git (or Git GUI) and restart your R Studio.\nPlease get in touch with feedback / questions, and/or requests to do a repeat or follow up of this, either in person or online.\n\n\nSession led by\nFelix Zajitschek",
+    "crumbs": [
+      "Sessions",
+      "Session 5 GitHub Intro"
+    ]
+  },
+  {
+    "objectID": "Sessions/11_2025.html",
+    "href": "Sessions/11_2025.html",
+    "title": "October meeting",
+    "section": "",
+    "text": "Bookdown in R\nThis month’s session, led by Peter Shum, will give us an Introduction to R Bookdown. Join us 1-2pm next Wednesday (October 15th) in Byrom Street JP 3.24.\n\n\nResources\nThere may be material provided by Peter that will be shared here later!\n\nSession led by\nPeter Shum"
+  },
+  {
+    "objectID": "Sessions/4_2025.html",
+    "href": "Sessions/4_2025.html",
+    "title": "April meeting",
+    "section": "",
+    "text": "Plots in R: GGPLOT\nYour intro guide to fancy plots!\nAlso check out the ggplot2cheatsheet\nAnd R graph gallery\n\n\nResources\nIntroductory slides\n\nHtml version of the R script\nThis is the “knitted” R file, you can copy the code into your own file: tricks2\nYou can download this from the github repo: Intro to RMD\n\n\nSession led by\nSusi Zajitschek",
+    "crumbs": [
+      "Sessions",
+      "Session 2 Ggplot2"
+    ]
+  },
+  {
+    "objectID": "about-BES.html",
+    "href": "about-BES.html",
+    "title": "School of Biological & Envrionmental Sciences",
+    "section": "",
+    "text": "Department within Liverpool John Moores University BES",
+    "crumbs": [
+      "About LJMU"
+    ]
+  },
+  {
+    "objectID": "about-BES.html#diverse-research-interests",
+    "href": "about-BES.html#diverse-research-interests",
+    "title": "School of Biological & Envrionmental Sciences",
+    "section": "Diverse Research Interests",
+    "text": "Diverse Research Interests\nWithin the school, we work on topics spanning from behavioural ecology to genomics and genetics, parasite-host interactions, neuro-endocrinology, forensic anthropology, marine biology, environmental physiology and dinosaur locomotion to wildlife conservation - all united by the use of R and R Studio.",
+    "crumbs": [
+      "About LJMU"
+    ]
+  },
+  {
+    "objectID": "about-bag.html",
+    "href": "about-bag.html",
+    "title": "About LJMU Bag of t R icks",
+    "section": "",
+    "text": "This is an attempt to start a “R User community” at Liverpool John Moores University, open to anyone from student to staff, beginner to pro. Questions about R? Struggling to find a way to best visualise your data? Found a new package that you’re really excited about?\nTHIS is where we will hear about it! The plan is to share I all resources here (and on the internal sharepoint site, it remains to be seen which of the two you find more useful!).\nIf you’re at LJMU and not yet part of the group, please get in touch and I’ll add you. Obviously anyone from anywhere is welcome to browse our pool of resources on this github page, we hope you find it useful! :-)\nAs this is pretty new still, I would be grateful for suggestions and feedback, and would be particularly grateful for help with leading a session! “Presentations” may be as short as 10mins, just giving an overview of what you’re sharing, and showing a worked example. The remaining time people can try to get this to work for themselves, with associated R markdown scripts shared here.\nWe might also have occasional “clinics” where you bring and discuss your analysis/stats/plot problem and the community can help you find solutions - apologies that this is not very inclusive for our online-online participants! But I will be sharing useful resources as we go along and as they’re discovered.",
+    "crumbs": [
+      "About Bag of tRicks"
+    ]
   }
 ]
