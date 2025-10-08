@@ -36,4 +36,13 @@ Open Research workshop series: open data, collaborations, shareable code!
 
 ### [September 2025](https://ljmutricks.github.io/bag-of-tricks/Sessions/9_2025.html)
    
-   We're continuing in the spirit of reproducible and shareable code: Learn how to use GitHub Desktop (and/or the Git integration in R Studio), for organised and collaborative work in R!
+  We're continuing in the spirit of reproducible and shareable code: Learn how to use GitHub Desktop (and/or the Git integration in R Studio), for organised and collaborative work in R!
+   
+### [October 2025](https://ljmutricks.github.io/bag-of-tricks/Sessions/10_2025.html)
+    
+Join us for an  Introduction to R Bookdown with Peter Shum.
+
+     
+### [November 2025](https://ljmutricks.github.io/bag-of-tricks/Sessions/11_2025.html)
+    
+No particular new skill planned - just come along to an open session for a chat or bring your R problem!    
