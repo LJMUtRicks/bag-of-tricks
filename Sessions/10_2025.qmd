@@ -12,7 +12,12 @@ This month's session, led by Peter Shum, will give us an Introduction to R Bookd
    
 ### Resources
 
-There may be material provided by Peter that will be shared here later!
+Peter has kindly provided his introductory slides: [Intro to Bookdown](https://github.com/LJMUtRicks/bag-of-tricks/tree/main/files/Bookdown/Intro to Bookdown.pdf) 
+
+and material to code along: [zip file](https://github.com/LJMUtRicks/bag-of-tricks/tree/main/files/Bookdown/ljmutRicks-bookdown-tutorial.zip)
+
+I did actually record the session, but unfortunately messed up the audio - so please watch with subtitles! Here are two versions of the same video, 1) [panopto upload](https://ljmu.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=fc68ffe8-4a97-4788-9830-b38400c89a4f) and of that doesn't work for everyone: 
+2) [Teams meeting recording](https://teams.microsoft.com/l/meetingrecap?driveId=b%21IUdwgangT026vJKIeWUlGK0xESLDHyxEiHcXvIPBiV6G2bz6kGqXS7YfAasTVDTI&driveItemId=01MHCG66EU5FIK4CQ5JJGIZ46ZWARL2SJW&sitePath=https%3A%2F%2Fljmu-my.sharepoint.com%2F%3Av%3A%2Fg%2Fpersonal%2Fnspszaji_ljmu_ac_uk%2FEZTpUK4KHUpMjPPZsCK9STYB1ub2MKIeHyw01dW5ACaM3Q&fileUrl=https%3A%2F%2Fljmu-my.sharepoint.com%2Fpersonal%2Fnspszaji_ljmu_ac_uk%2FDocuments%2FR%2520%2526%2520Stats%2FBag%2520of%2520tRicks%2FBookdown%2520intro%2FR%2520Bookdown%2520session-20251015_130507-Meeting%2520Recording.mp4%3Fweb%3D1&iCalUid=040000008200E00074C5B7101A82E00800000000206D8A6C253CDC01000000000000000010000000BF180A271F864840B227C6727E1DDE8D&threadId=19%3Ameeting_ZTJjYmJiODEtMWQwNC00NjM0LTllY2YtYmNhZDFhNmNlODg5%40thread.v2&organizerId=a12b33d1-3997-415c-bfb4-1544d7ce730e&tenantId=58c3f461-c821-42f7-8b96-24599cfd8b36&callId=d85ccb77-1faa-4815-9f19-41b1330ef6f5&threadType=Meeting&meetingType=Scheduled&subType=RecapSharingLink_RecapCore) 
 
     
 #### Session led by
