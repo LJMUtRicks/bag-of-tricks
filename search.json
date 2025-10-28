@@ -178,7 +178,7 @@
     "href": "Sessions/Overview.html",
     "title": "Current Sessions",
     "section": "",
-    "text": "2025 R user Community @LJMU\n\nIn person meetings (Wednesdays, mid-Month - starting Semester 2):\n\nMarch: visioning and Intro. What is rmd?\nApril: ggplot2\nMay: data wrangling\nJune: open science workshop series\nJuly: open session / troubleshooting Summer break\nSeptember: What is Github & how to use it with R\nOctober: Bookdown intro\nNovember: open session\nDecember: Genomic data visualisation\n\n\n\n\nMarch 2025\nIntroduction: “Why this group”? and using R markdown.\n\n\nApril 2025\nGGplot2: basics, types of plots, colour schemes, combinations with beeswarm plots, violins, etc.\n\n\nMay 2025\nGetting to know your raw dataset and how to tame it\n\n\nJune 2025\nOpen Research workshop series: open data, collaborations, shareable code!\n\n\nSeptember 2025\nWe’re continuing in the spirit of reproducible and shareable code: Learn how to use GitHub Desktop (and/or the Git integration in R Studio), for organised and collaborative work in R!\n\n\nOctober 2025\nJoin us for an Introduction to R Bookdown with Peter Shum.\n\n\nNovember 2025\nNo particular new skill planned - just come along to an open session for a chat or bring your R problem!",
+    "text": "2025 R user Community @LJMU\n\nIn person meetings (Wednesdays, mid-Month - starting Semester 2):\n\nMarch: visioning and Intro. What is rmd?\nApril: ggplot2\nMay: data wrangling\nJune: open science workshop series\nJuly: open session / troubleshooting Summer break\nSeptember: What is Github & how to use it with R\nOctober: Bookdown intro\nNovember: open session / R consortium conference: R+AI\nDecember: Genomic data visualisation\n\n\n\n\nMarch 2025\nIntroduction: “Why this group”? and using R markdown.\n\n\nApril 2025\nGGplot2: basics, types of plots, colour schemes, combinations with beeswarm plots, violins, etc.\n\n\nMay 2025\nGetting to know your raw dataset and how to tame it\n\n\nJune 2025\nOpen Research workshop series: open data, collaborations, shareable code!\n\n\nSeptember 2025\nWe’re continuing in the spirit of reproducible and shareable code: Learn how to use GitHub Desktop (and/or the Git integration in R Studio), for organised and collaborative work in R!\n\n\nOctober 2025\nJoin us for an Introduction to R Bookdown with Peter Shum.\n\n\nNovember 2025\nNo particular new skill planned - just come along to an open session for a chat or bring your R problem!",
     "crumbs": [
       "Sessions",
       "Current Overview"
@@ -211,10 +211,10 @@
     "href": "Sessions/11_2025.html",
     "title": "November meeting",
     "section": "",
-    "text": "OPEN SESSION\nNothing in particular planned for this session - but please still come along to have a chat about old resources, new things you’ve found, or an R problem that’s bugging you. This will take place 1-2pm on Wednesday November 19th in Byrom Street JP 3.18 [IT room].\n\n\nResources\nIf we’re discussing anything share-worthy, this will be provided here.\n\nSession led by\nSusi Zajitschek",
+    "text": "OPEN SESSION\nNothing in particular planned for this session - but please still come along to have a chat about old resources, new things you’ve found, or an R problem that’s bugging you. This will take place 1-2pm on Wednesday November 19th in Byrom Street JP 3.18 [IT room].\n\n\nResources\nIf we’re discussing anything share-worthy, this will be provided here. In the interim, some adverting for anyone interested: The R consortium is organising a reasonably priced online conference on R+AI this November. If you’re free Nov 12/13th 2015, check it out and register here: R+AI\n\nSession led by\nSusi Zajitschek",
     "crumbs": [
       "Sessions",
-      "Session 7 Open meeting"
+      "Session 7 Open meeting / R+AI conference"
     ]
   },
   {
