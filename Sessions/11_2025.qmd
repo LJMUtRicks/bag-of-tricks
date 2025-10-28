@@ -13,6 +13,7 @@ Nothing in particular planned for this session - but please still come along to 
 ### Resources
 
 If we're discussing anything share-worthy, this will be provided here.
+In the interim, some adverting for anyone interested: The R consortium is organising a reasonably priced online conference on R+AI this November. If you're free Nov 12/13th 2015, check it out and register here: [R+AI](https://rconsortium.github.io/RplusAI_website/)
 
     
 #### Session led by

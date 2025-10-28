@@ -13,7 +13,7 @@ title: "Current Sessions"
     Summer break
     -   **September:** What is Github & how to use it with R
     -   **October:** Bookdown intro
-    -   **November:** open session
+    -   **November:** open session / R consortium conference: R+AI
     -   **December:**  Genomic data visualisation
 
 

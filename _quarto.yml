@@ -52,7 +52,7 @@ website:
           - href: Sessions/10_2025.qmd
             text: Session 6 Intro to Bookdown
           - href: Sessions/11_2025.qmd
-            text: Session 7 Open meeting
+            text: Session 7 Open meeting / R+AI conference
       - href: about-bag.qmd
         text: About Bag of tRicks
       - href: about-BES.qmd
