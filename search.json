@@ -125,11 +125,25 @@
     ]
   },
   {
-    "objectID": "Sessions/12_2025.html",
-    "href": "Sessions/12_2025.html",
-    "title": "December meeting",
+    "objectID": "Sessions/4_2026.html",
+    "href": "Sessions/4_2026.html",
+    "title": "April 2026 meeting",
     "section": "",
-    "text": "Plotting genomic data\nOnce again we have Peter Shum sharing his knowledge, this time about large-scal genomic data. Planned for December 10th, 1-2pm, room tbc.\n\n\nResources\nThere may be material provided by Peter that will be shared here later!\n\nSession led by\nPeter Shum"
+    "text": "Meta analysis\nEver wanted to do a meta-analysis, but weren’t sure how/where to get started? I’ll go over my online resource and add some pointers for new developments, which aren’t incorporated in my online guide (yet)…\n\n\nResources\nPlease join us in person on Wednesday, 15th April, 1-2pm in room 310, Byrom street.\nAdditional resources: https://metaanalysis.zajitschek.net/\n\nSession led by\nSusi Zajitschek"
+  },
+  {
+    "objectID": "Sessions/2_2026.html",
+    "href": "Sessions/2_2026.html",
+    "title": "February 2026 meeting",
+    "section": "",
+    "text": "Overview & Discussion\nWelcome to our new starting postgraduate researchers! Please come along, even if you’ve been part of the group right from the start.\nA refresher: what is the LJMU “bag of tRicks” R community? Where/how do we share resources and know-how? Have you got feedback and ideas for this? What do you need “more” of?\n\n\nResources\nPlease join us in person on Wednesday, 18th February, 1-2pm in room 310, Byrom street.\nAdditional resources: tbd\n\nSession led by\nSusi Zajitschek"
+  },
+  {
+    "objectID": "Sessions/5_2026.html",
+    "href": "Sessions/5_2026.html",
+    "title": "May 2026 meeting",
+    "section": "",
+    "text": "Open session\nAny issues/ questions / problems? Come to IT room BS 320 between 1-2pm on the 20th of May to discuss ideas and solutions!\n\n\nResources\nPlease join us in person on Wednesday, 20iest May, 1-2pm in room 320, Byrom street.\nAdditional resources: tbd\n\nSession led by\nSusi Zajitschek & potential volunteers"
   },
   {
     "objectID": "Sessions/10_2025.html",
@@ -154,13 +168,14 @@
     ]
   },
   {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Contact",
+    "objectID": "Sessions/Overview.html",
+    "href": "Sessions/Overview.html",
+    "title": "Current Sessions",
     "section": "",
-    "text": "LJMU Bag of tRicks\ncurrently: Susi Zajitschek\nLJMU.bagoftricks @ gmail.com\ns.r.zajitschek @ ljmu.ac.uk\nPGR community\ntbd - volunteers please get in touch!",
+    "text": "2026 R user Community @LJMU\n\nIn person meetings (Wednesdays, mid-Month - starting Semester 2):\n\nJanuary: Genomic Plotting with Dr Peter Shum\nFebruary: Intro for Newcomers: Rmds, Open Science, the R community\nMarch: Open session\nApril: Intro to meta analysis\nJune: open session / troubleshooting Summer break\n\n\n\n\nJanuary 2026\nHappy new year! An introduction to genomic plotting with Peter Shum.\n\n\nFebruary 2026\nWelcome to the new postgraduates! This is the annual Intro for Newcomers: What is the R community @LJMU, Rmds, Open Science?\n\n\nMarch 2026\nOpen session - bring your problems/solutions/questions!\n\n\nApril 2026\nWondering what a meta analysis is? Or not sure how to get started? Come along to my Intro to meta analysis\n\n\nMay 2026\nOpen session\n\n\nJune 2026\nOpen session - tbc\n\n\n2025 R user Community @LJMU\n\nIn person meetings (Wednesdays, mid-Month - starting Semester 2):\n\nMarch: visioning and Intro. What is rmd?\nApril: ggplot2\nMay: data wrangling\nJune: open science workshop series\nJuly: open session / troubleshooting Summer break\nSeptember: What is Github & how to use it with R\nOctober: Bookdown intro\nNovember: open session / R consortium conference: R+AI\nDecember: Genomic data visualisation - cancelled - moved to January!\n\n\n\n\nMarch 2025\nIntroduction: “Why this group”? and using R markdown.\n\n\nApril 2025\nGGplot2: basics, types of plots, colour schemes, combinations with beeswarm plots, violins, etc.\n\n\nMay 2025\nGetting to know your raw dataset and how to tame it\n\n\nJune 2025\nOpen Research workshop series: open data, collaborations, shareable code!\n\n\nSeptember 2025\nWe’re continuing in the spirit of reproducible and shareable code: Learn how to use GitHub Desktop (and/or the Git integration in R Studio), for organised and collaborative work in R!\n\n\nOctober 2025\nJoin us for an Introduction to R Bookdown with Peter Shum.\n\n\nNovember 2025\nNo particular new skill planned - just come along to an open session for a chat or bring your R problem!",
     "crumbs": [
-      "Contact"
+      "Sessions",
+      "Current Overview"
     ]
   },
   {
@@ -174,15 +189,21 @@
     ]
   },
   {
-    "objectID": "Sessions/Overview.html",
-    "href": "Sessions/Overview.html",
-    "title": "Current Sessions",
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
     "section": "",
-    "text": "2025 R user Community @LJMU\n\nIn person meetings (Wednesdays, mid-Month - starting Semester 2):\n\nMarch: visioning and Intro. What is rmd?\nApril: ggplot2\nMay: data wrangling\nJune: open science workshop series\nJuly: open session / troubleshooting Summer break\nSeptember: What is Github & how to use it with R\nOctober: Bookdown intro\nNovember: open session / R consortium conference: R+AI\nDecember: Genomic data visualisation\n\n\n\n\nMarch 2025\nIntroduction: “Why this group”? and using R markdown.\n\n\nApril 2025\nGGplot2: basics, types of plots, colour schemes, combinations with beeswarm plots, violins, etc.\n\n\nMay 2025\nGetting to know your raw dataset and how to tame it\n\n\nJune 2025\nOpen Research workshop series: open data, collaborations, shareable code!\n\n\nSeptember 2025\nWe’re continuing in the spirit of reproducible and shareable code: Learn how to use GitHub Desktop (and/or the Git integration in R Studio), for organised and collaborative work in R!\n\n\nOctober 2025\nJoin us for an Introduction to R Bookdown with Peter Shum.\n\n\nNovember 2025\nNo particular new skill planned - just come along to an open session for a chat or bring your R problem!",
+    "text": "LJMU Bag of tRicks\ncurrently: Susi Zajitschek\nLJMU.bagoftricks @ gmail.com\ns.r.zajitschek @ ljmu.ac.uk\nPGR community\ntbd - volunteers please get in touch!",
     "crumbs": [
-      "Sessions",
-      "Current Overview"
+      "Contact"
     ]
+  },
+  {
+    "objectID": "Sessions/1_2026.html",
+    "href": "Sessions/1_2026.html",
+    "title": "January 2026 meeting",
+    "section": "",
+    "text": "Genomic plotting\nThis month’s session, once again led by Peter Shum, shows us briefly over approaches on how to visualise a variety of genomic data.\n\n\nResources\nPeter has kindly provided his material to code along: zip file data and the bookdown with instructions zip file genomics\nHere is a recording of the session: Teams meeting recording\n\nSession led by\nPeter Shum"
   },
   {
     "objectID": "Sessions/5_2025.html",
@@ -196,6 +217,13 @@
     ]
   },
   {
+    "objectID": "Sessions/3_2026.html",
+    "href": "Sessions/3_2026.html",
+    "title": "March 2026 meeting",
+    "section": "",
+    "text": "Open session\nAny issues, problems, questions? Come along to this open clinic, to discuss solutions and explore ideas!\n\n\nResources\nPlease join us in person on Wednesday, 11th March, 1-2pm in room 320, Byrom street.\n\nSession led by\nSusi Zajitschek (& potential volunteers?)"
+  },
+  {
     "objectID": "Sessions/9_2025.html",
     "href": "Sessions/9_2025.html",
     "title": "September meeting",
@@ -205,6 +233,13 @@
       "Sessions",
       "Session 5 GitHub Intro"
     ]
+  },
+  {
+    "objectID": "Sessions/12_2025.html",
+    "href": "Sessions/12_2025.html",
+    "title": "December meeting",
+    "section": "",
+    "text": "Plotting genomic data\nOnce again we have Peter Shum sharing his knowledge, this time about large-scale genomic data. Planned for December 10th, 1-2pm, room tbc.\n\n\nResources\nThere may be material provided by Peter that will be shared here later!\n\nSession led by\nPeter Shum"
   },
   {
     "objectID": "Sessions/11_2025.html",
