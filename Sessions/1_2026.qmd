@@ -1,0 +1,23 @@
+---
+title: "January 2026 meeting"
+editor:
+  markdown: 
+    wrap: 72
+---
+
+### Genomic plotting
+
+This month's session, once again led by Peter Shum, shows us briefly over approaches on how to visualise a variety of genomic data. 
+
+   
+### Resources
+
+Peter has kindly provided his material to code along: [zip file data](https://github.com/LJMUtRicks/bag-of-tricks/tree/main/files/GenomicPlotting/data.zip) and the bookdown with instructions [zip file genomics](https://github.com/LJMUtRicks/bag-of-tricks/tree/main/files/GenomicPlotting/Genomics.zip)
+
+
+Here is a recording of the session:  [Teams meeting recording](https://ljmu-my.sharepoint.com/:v:/g/personal/nspszaji_ljmu_ac_uk/IQCydQVEyOzFRLj_QYKXC-OWAbT5GnwIO-7ym2DnJ05h8pE?e=9dfYue&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) 
+
+    
+#### Session led by
+
+Peter Shum

@@ -7,7 +7,7 @@ editor:
 
 ### Plotting genomic data
 
-Once again we have Peter Shum sharing his knowledge, this time about large-scal genomic data. Planned for December 10th, 1-2pm, room tbc.
+Once again we have Peter Shum sharing his knowledge, this time about large-scale genomic data. Planned for December 10th, 1-2pm, room tbc.
 
    
 ### Resources

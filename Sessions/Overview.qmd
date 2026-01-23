@@ -2,6 +2,43 @@
 title: "Current Sessions"
 ---
 
+### 2026 R user Community @LJMU
+
+-   **In person meetings** (Wednesdays, mid-Month - starting Semester 2):
+    -   **January:** Genomic Plotting with Dr Peter Shum
+    -   **February:** Intro for Newcomers: Rmds, Open Science, the R community
+    -   **March:** Open session
+    -   **April:** Intro to meta analysis
+    -   **June:** open session / troubleshooting
+    Summer break
+         
+    
+### [January 2026](https://ljmutricks.github.io/bag-of-tricks/Sessions/1_2026.html)
+    
+Happy new year! An introduction to genomic plotting with Peter Shum.
+ 
+### [February 2026](https://ljmutricks.github.io/bag-of-tricks/Sessions/2_2026.html)
+
+Welcome to the new postgraduates! This is the annual Intro for Newcomers: What is the R community @LJMU, Rmds, Open Science?
+   
+### [March 2026](https://ljmutricks.github.io/bag-of-tricks/Sessions/3_2026.html)
+
+Open session - bring your problems/solutions/questions!
+
+### [April 2026](https://ljmutricks.github.io/bag-of-tricks/Sessions/4_2026.html)
+
+Wondering what a meta analysis is? Or not sure how to get started? Come along to my Intro to meta analysis
+   
+### [May 2026](https://ljmutricks.github.io/bag-of-tricks/Sessions/5_2026.html)
+
+Open session 
+
+### [June 2026](https://ljmutricks.github.io/bag-of-tricks/Sessions/6_2026.html)
+
+Open session - tbc 
+    
+
+
 ### 2025 R user Community @LJMU
 
 -   **In person meetings** (Wednesdays, mid-Month - starting Semester 2):
@@ -14,7 +51,7 @@ title: "Current Sessions"
     -   **September:** What is Github & how to use it with R
     -   **October:** Bookdown intro
     -   **November:** open session / R consortium conference: R+AI
-    -   **December:**  Genomic data visualisation
+    -   **December:**  Genomic data visualisation - cancelled - moved to January!
 
 
 ### [March 2025](https://ljmutricks.github.io/bag-of-tricks/Sessions/3_2025.html)
@@ -36,7 +73,7 @@ Open Research workshop series: open data, collaborations, shareable code!
 
 ### [September 2025](https://ljmutricks.github.io/bag-of-tricks/Sessions/9_2025.html)
    
-  We're continuing in the spirit of reproducible and shareable code: Learn how to use GitHub Desktop (and/or the Git integration in R Studio), for organised and collaborative work in R!
+We're continuing in the spirit of reproducible and shareable code: Learn how to use GitHub Desktop (and/or the Git integration in R Studio), for organised and collaborative work in R!
    
 ### [October 2025](https://ljmutricks.github.io/bag-of-tricks/Sessions/10_2025.html)
     

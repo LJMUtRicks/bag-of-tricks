@@ -1,0 +1,22 @@
+---
+title: "April 2026 meeting"
+editor:
+  markdown: 
+    wrap: 72
+---
+
+### Meta analysis
+
+Ever wanted to do a meta-analysis, but weren't sure how/where to get started? I'll go over my online resource and add some pointers for new developments, which aren't incorporated in my online guide (yet)...
+
+   
+### Resources
+
+Please join us in person on **Wednesday, 15th April, 1-2pm in room 310, Byrom street.**
+
+Additional resources: https://metaanalysis.zajitschek.net/
+
+    
+#### Session led by
+
+Susi Zajitschek 
