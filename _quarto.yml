@@ -53,6 +53,16 @@ website:
             text: Session 6 Intro to Bookdown
           - href: Sessions/11_2025.qmd
             text: Session 7 Open meeting / R+AI conference
+          - href: Sessions/1_2026.qmd
+            text: Session 8 Genomic Plotting
+          - href: Sessions/2_2026.qmd
+            text: Session 9 Discussion 
+          - href: Sessions/3_2026.qmd
+            text: Session 10 Open Session
+          - href: Sessions/4_2026.qmd
+            text: Session 11 Meta analysis
+          - href: Sessions/5_2026.qmd
+            text: Session 5 Open session
       - href: about-bag.qmd
         text: About Bag of tRicks
       - href: about-BES.qmd
