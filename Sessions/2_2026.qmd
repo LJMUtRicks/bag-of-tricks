@@ -17,7 +17,7 @@ A refresher: what is the LJMU "bag of tRicks" R community? Where/how do we share
 
 Please join us in person on **Wednesday, 18th February, 1-2pm in room 310, Byrom street.**
 
-Additional resources: tbd
+Additional resources:  [R community 2026 (re)Introduction](https://github.com/LJMUtRicks/bag-of-tricks/tree/main/files/R_community_reIntro2026.pdf) 
 
     
 #### Session led by
